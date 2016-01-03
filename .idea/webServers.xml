@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="8b758069-6633-4a42-862d-0bf7817afbc2" name="mamp" url="http://localhost">
+        <fileTransfer mountedRoot="" accessType="MOUNT" />
+      </webServer>
+      <webServer id="a40ebf94-2a9b-4a4c-bb2f-35daeb6fc36c" name="MAMP Apache" url="http://localhost">
+        <fileTransfer mountedRoot="/Applications/MAMP/htdocs" accessType="MOUNT" />
+      </webServer>
+      <webServer id="38234188-979a-4c0c-9d5a-0706eeb66eba" name="middleton_dev" url="http://www.middleton-estates.co.uk">
+        <fileTransfer host="50.87.144.105" port="21" password="dfc8dfc5dfc6dfdedfd9dfdadfdfdfd8dfd9df9b" username="dev@middleton-estates.co.uk">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="91503902-1dc2-44dd-acc2-ce54c3e57ecf" name="middleton_live" url="http://www.middleton-estates.co.uk">
+        <fileTransfer host="50.87.144.105" port="21" username="live@middleton-estates.co.uk">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

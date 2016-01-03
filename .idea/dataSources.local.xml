@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="MySQL - vebraDev@localhost" uuid="8fb693c5-fb7d-48c6-9bb4-ca50608348fe">
+      <secret-storage>master_key</secret-storage>
+      <user-name>vebraAdmin</user-name>
+    </data-source>
+    <data-source name="MySQL - @localhost" uuid="b1700416-9f14-4025-8d57-82cc4a98ab1f">
+      <secret-storage>master_key</secret-storage>
+      <first-sync>true</first-sync>
+    </data-source>
+  </component>
+</project>
