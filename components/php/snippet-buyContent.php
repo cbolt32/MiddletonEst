@@ -1,6 +1,7 @@
 <div class="col-lg-10 col-md-offset-1 col-md-10 col-sm-10  col-sm-offset-1   buyMain"
      xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html"
-     xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html">
+     xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html"
+     xmlns="http://www.w3.org/1999/html">
 	<h2 class="">Our Services For Property Purchasing</h2>
 
 	<p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris
@@ -15,48 +16,64 @@
 
 	<h3>Search For Sale Properties</h3>
 
-	<form class="buyingSearchForm form-horizontal" id="contactUs" method="post" action="contactValidation.php">
 
-		<fieldset id="buyingRefineSearchFieldset">
+	<-->
+
+	<form class="buyingSearchForm form-inline" method="post" action="/search/">
+
+<!--		Both Required for auto population of location select menu -->
+		<?php include $_SERVER['DOCUMENT_ROOT'] . '/search/index.php';?>
+		<?php include $_SERVER['DOCUMENT_ROOT'] . '/includes/helpers.inc.php';?>
+		<fieldset id="buyingSearchFieldset">
 			<legend>Find Your New Home</legend>
 			<div class="row">
 				<div class="col-lg-6">
 					<div class="input-group">
-                        <span class="input-group-btn">
-                            <button class="btn btn-default" type="button">Search!</button>
-                        </span>
-						<input type="text" class="form-control" placeholder="Post Code or Area">
+
+						<label class="areaSelect" id="areaSelect" for="areaSelect">Test Loc</label></br></br>
+
+
+						<select name="areaSelect[]" id="areaSelect" class="selectpicker"
+						        data-selected-text-format="count"  data-actions-box="true" data-toggle="dropdown" class="selectpicker"
+						        multiple data-selected-text-format="count"  >
+							<option value="any">Any</option>
+							<?php foreach($areaSelects as $areaSelect): ?>
+								<option value="<?php htmlout( $areaSelect['available']);?>"><?php htmlout(
+											$areaSelect['available'])
+									;?></option>
+							<?php endforeach; ?>
+						</select>
+
 					</div><!-- /input-group -->
 				</div><!-- /.col-lg-6 -->
 			</div><!-- /.row -->
-			</fieldset>
+			      		</fieldset>
 
 
-		<fieldset id="buyingRefineSearchFieldset">
+			      <!--		<fieldset id="buyingRefineSearchFieldset">-->
 			<legend>Refine Search</legend>
 
-
-
-			<!--Bedroom number dropdown-->
-			<label for="bedsSelect">Num Of Bedrooms</label></br>
-			<select name="numOfBedSelect" id="numOfBedSelect" class="selectpicker" multiple multiple data-selected-text-format="count" multiple data-actions-box="true" >
-<!--				<option>Any</option>-->
+			      <!--Bedroom number dropdown-->
+			<label for="bedsSelect">Min Number of Bedrooms</label></br>
+			<select name="numOfBedSelect[]" id="numOfBedSelect" class="selectpicker"
+			        data-selected-text-format="count"  data-actions-box="true">
+				<option value="any">Any</option>
 				<option value="Studio">Studio</option>
 				<option value="1 Bedroom">1 Bedroom</option>
-				<option value="2 Bedroom">2 Bedroom</option>
-				<option value="3 Bedroom">3 Bedroom</option>
-				<option value="4 Bedroom">4 Bedroom</option>
-				<option value="5 Bedroom">5 Bedroom</option>
-				<option value="6+ Bedroom">6+ Bedroom</option>
+				<option value="2 Bedroom">2 Bedrooms</option>
+				<option value="3 Bedroom">3 Bedrooms</option>
+				<option value="4 Bedroom">4 Bedrooms</option>
+				<option value="5 Bedroom">5 Bedrooms</option>
+				<option value="6 Bedroom">6 Bedrooms</option>
 			</select>
 			</br>
 
-			<!--Property Type dropdown-->
-
+			      <!--Property Type dropdown-->
 			<label for="propTypeSelect">Property Type</label></br>
-			<select name="propertyTypesSelect" id="propertyTypesSelect" data-toggle="dropdown" class="selectpicker" multiple multiple data-selected-text-format="count" multiple data-actions-box="true" style="background-color: pink">
-				<option>Any</option>
-				<option value="All">All</option>
+			<select name="propertyTypesSelect[]" id="propertyTypesSelect" data-toggle="dropdown" class="selectpicker"
+			        multiple data-selected-text-format="count"  >
+				<!--				<option value="Any">Any</option>-->
+				<!--				<option value="All">All</option>-->
 				<option value="Bungalow">Bungalow</option>
 				<option value="Cottage">Cottage</option>
 				<option value="Detached">Detached</option>
@@ -64,15 +81,14 @@
 				<option value="Flat">Flat</option>
 				<option value="Terrace">Terrace</option>
 				<option value="Semi-Detached">Semi-Detached</option>
-				<option value="Any">Any</option>
 			</select>
 			</br>
 
 
-			<!--Min Value Type dropdown-->
-
+			      <!--Min Value Type dropdown-->
 			<label for="minValSelect" control-label">Minimum Value</label></br>
-			<select name="minValueSelect" id="minValueSelect" data-toggle="dropdown" class="selectpicker" multiple multiple data-selected-text-format="count" multiple data-actions-box="true">
+			<select name="minValueSelect[]" id="minValueSelect" data-toggle="dropdown" class="selectpicker">
+				<!--			        multiple data-selected-text-format="count" multiple data-actions-box="true">-->
 				<option value="No Minimum">No Minimum</option>
 				<option value="£200,000orless">£200,000 or less</option>
 				<option value="£225,000">£225,000</option>
@@ -89,12 +105,11 @@
 				<option value="£4,000,000">£4,000,000</option>
 
 			</select>
-</br>
+			</br>
 
-			<!--Max Value Type dropdown-->
-
-			<label for="maxValSelect" control-label">Minimum Value</label></br>
-			<select name="maxValueSelect" id="maxValueSelect" data-toggle="dropdown" class="selectpicker" multiple multiple data-selected-text-format="count" multiple data-actions-box="true">
+			      <!--Max Value Type dropdown-->
+			<label for="maxValSelect" control-label">Maximum Value</label></br>
+			<select name="maxValueSelect[]" id="maxValueSelect" data-toggle="dropdown" class="selectpicker">
 				<option value="No Maximum">No Maximum</option>
 				<option value="£200,000orless">£200,000</option>
 				<option value="£225,000">£225,000</option>
@@ -111,8 +126,17 @@
 				<option value="£4,000,000orMore">£4,000,000 ro More</option>
 
 			</select>
-		</fieldset>
 
+			<div class="row">
+				<div class="col-lg-6">
+					<div class="input-group">
+                        <span class="input-group-btn" >
+                            <button class="btn btn-default" type="submit">Search!</button>
+                        </span>
+					</div>
+				</div>
+			</div>
+		</fieldset>
 	</form>
 
 	<!--<div class="col-lg-10 col-md-offset-1 col-md-10 col-sm-10  col-sm-offset-1  buySubView"-->

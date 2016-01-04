@@ -21,7 +21,7 @@ try {
 }
 catch (PDOException $e)
 {
-    $output = 'Unable to connect to the database server. ' . $e->getMessage();
+    $error = 'Unable to connect to the database server. ' . $e->getMessage();
     include 'error.html.php';
     exit();
 }

@@ -1,6 +1,6 @@
 
 
-TODO: Logo and name, fix color
+<!--TODO: Logo and name, fix color-->
 
 <nav class="navbar navbar-inverse navbar-fixed-top mainHead">
 	<div class="container mainCollapse">

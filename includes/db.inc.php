@@ -14,7 +14,7 @@
 //}
 
 try {
-    $pdo = new PDO('mysql:host=localhost;dbname=middleton_dev', 'vebraAdmin', 'boltspurs');
+    $pdo = new PDO('mysql:host=localhost;dbname=Middleton_Dev', 'vebraAdmin', 'boltspurs');
     $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
     $pdo->exec('SET NAMES "utf8"');
 
@@ -23,8 +23,7 @@ catch (PDOException $e)
 {
     $output = 'Unable to connect to the database server. ' . $e->getMessage();
     include 'error.html.php';
+    echo $output;
     exit();
 }
 
-$output = "Database connection established.";
-include 'output.html.php';

@@ -2,6 +2,31 @@
 include_once $_SERVER['DOCUMENT_ROOT'] .
              '/includes/magicQuotes.inc.php';
 
+// Display search form
+include $_SERVER['DOCUMENT_ROOT'] . '/includes/db.inc.php';
+
+
+//Selects  unique values for location search dropdown, lower cased to prevent case sensitive dupelication
+try
+{
+	$result = $pdo->query('SELECT DISTINCT LOWER(available) AS available FROM `$vebraproperties` ORDER BY available');
+}
+catch (PDOException $e)
+{
+	$error = 'Error fetching areas from database ;( !';
+	include 'error.html.php';
+	exit();
+}
+
+foreach ($result as $row)
+{
+	$areaSelects[] = array('available' => $row['available']);
+}
+
+
+//include 'searchform.html.php';
+
+
 //if (isset($_GET['add']))
 //{
 //	$pageTitle = 'New Joke';
@@ -11,78 +36,46 @@ include_once $_SERVER['DOCUMENT_ROOT'] .
 //	$id = '';
 //	$button = 'Add joke';
 
+//Declare search vars
 
+//$beds = $_POST['numOfBedSelect'];
+//$type[] = $_POST['propertyTypesSelect'];
+//$min = $_POST['minValueSelect'];
+//$max = $_POST['maxValueSelect'];
+//
+//
+//
+////header("Content-Type: text/plain");
 
-
-//Check if search data was submitted
-if ( isset( $_GET['searchLoc'] ) ) {
-	// Include the search class
-	require_once( dirname( __FILE__ ) . '/class-search.php' );
-
-	// Instantiate a new instance of the search class
-	$search = new search();
-
-	// Store search term into a variable
-	$search_term = htmlspecialchars($_GET['searchLoc'], ENT_QUOTES);
-
-	// Send the search term to our search class and store the result
-	$search_results = $search->search($search_term);
+foreach ($_POST['numOfBedSelect'] as $beds) {
+	echo $beds . "\n";
 }
-?>
-<!---->
-<!--<!DOCTYPE html>-->
-<!--<html>-->
-<!--	<head>-->
-<!--		<title>Search</title>-->
-<!--	</head>-->
-<!--	<body>-->
-<!--		<h1>Search</h1>-->
-<!--		<div class="search-form">-->
-<!--			<form action="" method="get">-->
-<!--				<div class="form-field">-->
-<!--					<label for="search-field">Search</label>-->
-<!--					<input type="search" name="searchLoc" placeholder="Enter your search term..." results="5"-->
-<!--					       value="--><?php //echo $search_term; ?><!--">-->
-<!--					<input type="submit" value="Search">-->
-<!--				</div>-->
-<!--			</form>-->
-<!--		</div>-->
-<!--		--><?php //if ( $search_results ) : ?>
-<!--			<div class="results-count">-->
-<!--				<p>--><?php //echo $search_results['count']; ?><!-- results found</p>-->
-<!--			</div>-->
-<!--			<div class="results-table">-->
-<!--				--><?php //foreach ( $search_results['results'] as $search_result ) : ?>
-<!--					<div class="result">-->
-<!--						<p>--><?php //echo $search_result->title; ?><!--</p>-->
-<!--					</div>-->
-<!--				--><?php //endforeach; ?>
-<!--			</div>-->
-<!--			<div class="search-raw">-->
-<!--				<pre>--><?php //print_r($search_results); ?><!--</pre>-->
-<!--			</div>-->
-<!--		--><?php //endif; ?>
-<!--	</body>-->
-<!--</html>-->
+
+if(isset($_POST['propertyTypesSelect'])) //if is not set search all types
+{
+foreach ($_POST['propertyTypesSelect'] as $type) {
+	echo $type . "\n";
+}}
+
+foreach ($_POST['minValueSelect'] as $min) {
+	echo $min . "\n";
+}
+
+foreach ($_POST['maxValueSelect'] as $max) {
+	echo $max . "\n";
+}
+
+if(isset($_POST['locInput']))
+{
+	$output = $_POST['locInput'];
+	echo $output;
+}
+//TODO max must be higher than min
 
 
-	/*
-	// Build the list of authors
-	try
-	{
-		$result = $pdo->query('SELECT id, name FROM author');
-	}
-	catch (PDOException $e)
-	{
-		$error = 'Error fetching list of authors.';
-		include 'error.html.php';
-		exit();
-	}
 
-	foreach ($result as $row)
-	{
-		$authors[] = array('id' => $row['id'], 'name' => $row['name']);
-	}
+/*
+
 
 	// Build the list of categories
 	try

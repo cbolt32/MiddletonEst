@@ -15,22 +15,24 @@
  *  5 - Buying page styling
  */
 
-.transition {
-  -webkit-transition: all 1s ease-in-out;
-  -moz-transition: all 1s ease-in-out;
-  -o-transition: all 1s ease-in-out;
-  transition: all 1s ease-in-out;
-  }
-.show {
-  opacity: 0.4;
-  }
+//scroll up darken bar test
+//.transition {
+//  -webkit-transition: all 1s ease-in-out;
+//  -moz-transition: all 1s ease-in-out;
+//  -o-transition: all 1s ease-in-out;
+//  transition: all 1s ease-in-out;
+//  }
+//.show {
+//  opacity: 0.4;
+//  }
+
 
 /**************************************************************************
  *  1 - DEFINED VARIABLES                                                 *
  **************************************************************************/
 //COLORS
-@middletonPink: rgb(178, 71, 134);
-@middletonSlate: rgb(112, 110, 125);
+@middletonPink: rgb(229, 9, 127);
+@middletonSlate: rgb(91, 91, 91);
 
 //Screen Sizes
 /* Extra small devices (phones, less than 768px) */
@@ -47,6 +49,41 @@
 
 //Fonts todo: resolve error!!
 @import url(https://fonts.googleapis.com/css?family=Hind:400,300,500,600,700);
+
+/**************************************************************************
+ *  1 - AMENDED BS VARIABLES                                                 *
+ **************************************************************************/
+
+//** Background for the dropdown menu.
+@dropdown-bg:                    green !important;
+//** Dropdown menu `border-color`.
+@dropdown-border:                rgba(0,0,0,.15);
+//** Dropdown menu `border-color` **for IE8**.
+@dropdown-fallback-border:       #cccfff;
+//** Divider color for between dropdown items.
+@dropdown-divider-bg:            #e5e5e5;
+
+//** Dropdown link text color.
+@dropdown-link-color:            yellow !important;
+//** Hover color for dropdown links.
+@dropdown-link-hover-color:      darken(@gray-dark, 5%);
+//** Hover background for dropdown links.
+@dropdown-link-hover-bg:         #f5f5f5;
+
+//** Active dropdown menu item text color.
+@dropdown-link-active-color:     @component-active-color;
+//** Active dropdown menu item background color.
+@dropdown-link-active-bg:        @component-active-bg;
+
+//** Disabled dropdown menu item background color.
+@dropdown-link-disabled-color:   @gray-light;
+
+//** Text color for headers within dropdown menus.
+@dropdown-header-color:          @gray-light;
+
+//** Deprecated `@dropdown-caret-color` as of v3.1.0
+@dropdown-caret-color:           #000;
+
 
 /**************************************************************************
  *  1 - General Styling                                                   *
