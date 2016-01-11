@@ -1,29 +1,7 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: Chris
- * Date: 09/12/15
- * Time: 18:03
- */
-
-$firstName = $_REQUEST['firstName'];
-$lastName = $_REQUEST['lastName'];
-//echo 'Welcome to our website, ' . htmlspecialchars($firstName, ENT_QUOTES, 'UTF-8') . ' ' .
-//    htmlspecialchars($lastName, ENT_QUOTES, 'UTF-8') . '!';
-
-if ($firstName == 'Kevin' && $lastName == 'Yank')
-{
-    echo 'Welcom, oh Glorious leader!';
-}
-else
-{
-    echo 'Welcome to our website, ' . htmlspecialchars($firstName, ENT_QUOTES, 'UTF-8') . ' '
-                                    . htmlspecialchars($lastName, ENT_QUOTES, 'UTF-8') . '!';
-}
 
 
-
-require 'vendor/autoload.php';
+require '/composer.phar/vendor/autoload.php';
 
 use YDD\Vebra\API as VebraAPI;
 use YDD\Vebra\TokenStorage\File as TokenStorageFile;

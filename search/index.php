@@ -1,15 +1,17 @@
 <?php
-include_once $_SERVER['DOCUMENT_ROOT'] .
-             '/includes/magicQuotes.inc.php';
 
-// Display search form
+//******************TODO WORKING CODE!!!!*********************
+include_once $_SERVER['DOCUMENT_ROOT'] .
+'/includes/magicQuotes.inc.php';
+
+//Display search form
 include $_SERVER['DOCUMENT_ROOT'] . '/includes/db.inc.php';
 
 
 //Selects  unique values for location search dropdown, lower cased to prevent case sensitive dupelication
 try
 {
-	$result = $pdo->query('SELECT DISTINCT LOWER(available) AS available FROM `$vebraproperties` ORDER BY available');
+	$result = $pdo->query('SELECT DISTINCT LOWER(available) AS available FROM `$vebraproperties` ORDER BY available'); //todo change col name available in live db
 }
 catch (PDOException $e)
 {
@@ -23,373 +25,29 @@ foreach ($result as $row)
 	$areaSelects[] = array('available' => $row['available']);
 }
 
-
-//include 'searchform.html.php';
-
-
-//if (isset($_GET['add']))
-//{
-//	$pageTitle = 'New Joke';
-//	$action = 'addform';
-//	$text = '';
-//	$authorid = '';
-//	$id = '';
-//	$button = 'Add joke';
-
-//Declare search vars
-
-//$beds = $_POST['numOfBedSelect'];
-//$type[] = $_POST['propertyTypesSelect'];
-//$min = $_POST['minValueSelect'];
-//$max = $_POST['maxValueSelect'];
-//
-//
-//
-////header("Content-Type: text/plain");
-
-foreach ($_POST['numOfBedSelect'] as $beds) {
-	echo $beds . "\n";
-}
-
-if(isset($_POST['propertyTypesSelect'])) //if is not set search all types
-{
-foreach ($_POST['propertyTypesSelect'] as $type) {
-	echo $type . "\n";
-}}
-
-foreach ($_POST['minValueSelect'] as $min) {
-	echo $min . "\n";
-}
-
-foreach ($_POST['maxValueSelect'] as $max) {
-	echo $max . "\n";
-}
-
-if(isset($_POST['locInput']))
-{
-	$output = $_POST['locInput'];
-	echo $output;
-}
-//TODO max must be higher than min
+//^^^^^^^^^^^^^^^^^^^^^^^^^TODO WORKING CODE!!!!^^^^^^^^^^^^^^^^^^^^^^
 
 
+//Search results from filter //todo the below results in an output!!
 
-/*
-
-
-	// Build the list of categories
-	try
-	{
-		$result = $pdo->query('SELECT id, name FROM category');
-	}
-	catch (PDOException $e)
-	{
-		$error = 'Error fetching list of categories.';
-		include 'error.html.php';
-		exit();
-	}
-
-	foreach ($result as $row)
-	{
-		$categories[] = array(
-			'id' => $row['id'],
-			'name' => $row['name'],
-			'selected' => FALSE);
-	}
-
-	include 'form.html.inc.php';
-	exit();
-}
-
-if (isset($_GET['addform']))
+if (isset($_POST['action']) and $_POST['action'] == 'search')
 {
 	include $_SERVER['DOCUMENT_ROOT'] . '/includes/db.inc.php';
 
-	if ($_POST['author'] == '')
-	{
-		$error = 'You must choose an author for this joke.
-        Click &lsquo;back&rsquo; and try again.';
-		include 'error.html.php';
-		exit();
-	}
 
-	try
-	{
-		$sql = 'INSERT INTO joke SET
-        joketext = :joketext,
-        jokedate = CURDATE(),
-        authorid = :authorid';
-		$s = $pdo->prepare($sql);
-		$s->bindValue(':joketext', $_POST['text']);
-		$s->bindValue(':authorid', $_POST['author']);
-		$s->execute();
-	}
-	catch (PDOException $e)
-	{
-		$error = 'Error adding submitted joke.';
-		include 'error.html.php';
-		exit();
-	}
-
-	$jokeid = $pdo->lastInsertId();
-
-	if (isset($_POST['categories']))
-	{
-		try
-		{
-			$sql = 'INSERT INTO jokecategory SET
-          jokeid = :jokeid,
-          categoryid = :categoryid';
-			$s = $pdo->prepare($sql);
-
-			foreach ($_POST['categories'] as $categoryid)
-			{
-				$s->bindValue(':jokeid', $jokeid);
-				$s->bindValue(':categoryid', $categoryid);
-				$s->execute();
-			}
-		}
-		catch (PDOException $e)
-		{
-			$error = 'Error inserting joke into selected categories.';
-			include 'error.html.php';
-			exit();
-		}
-	}
-
-	header('Location: .');
-	exit();
-}
-
-if (isset($_POST['action']) and $_POST['action'] == 'Edit')
-{
-	include $_SERVER['DOCUMENT_ROOT'] . '/includes/db.inc.php';
-
-	try
-	{
-		$sql = 'SELECT id, joketext, authorid FROM joke WHERE id = :id';
-		$s = $pdo->prepare($sql);
-		$s->bindValue(':id', $_POST['id']);
-		$s->execute();
-	}
-	catch (PDOException $e)
-	{
-		$error = 'Error fetching joke details.';
-		include 'error.html.php';
-		exit();
-	}
-	$row = $s->fetch();
-
-	$pageTitle = 'Edit Joke';
-	$action = 'editform';
-	$text = $row['joketext'];
-	$authorid = $row['authorid'];
-	$id = $row['id'];
-	$button = 'Update joke';
-
-	// Build the list of authors
-	try
-	{
-		$result = $pdo->query('SELECT id, name FROM author');
-	}
-	catch (PDOException $e)
-	{
-		$error = 'Error fetching list of authors.';
-		include 'error.html.php';
-		exit();
-	}
-
-	foreach ($result as $row)
-	{
-		$authors[] = array('id' => $row['id'], 'name' => $row['name']);
-	}
-
-	// Get list of categories containing this joke
-	try
-	{
-		$sql = 'SELECT categoryid FROM jokecategory WHERE jokeid = :id';
-		$s = $pdo->prepare($sql);
-		$s->bindValue(':id', $id);
-		$s->execute();
-	}
-	catch (PDOException $e)
-	{
-		$error = 'Error fetching list of selected categories.';
-		include 'error.html.php';
-		exit();
-	}
-
-	foreach ($s as $row)
-	{
-		$selectedCategories[] = $row['categoryid'];
-	}
-
-	// Build the list of all categories
-	try
-	{
-		$result = $pdo->query('SELECT id, name FROM category');
-	}
-	catch (PDOException $e)
-	{
-		$error = 'Error fetching list of categories.';
-		include 'error.html.php';
-		exit();
-	}
-
-	foreach ($result as $row)
-	{
-		$categories[] = array(
-			'id' => $row['id'],
-			'name' => $row['name'],
-			'selected' => in_array($row['id'], $selectedCategories));
-	}
-
-	include 'form.html.inc.php';
-	exit();
-}
-
-if (isset($_GET['editform']))
-{
-	include $_SERVER['DOCUMENT_ROOT'] . '/includes/db.inc.php';
-
-	if ($_POST['author'] == '')
-	{
-		$error = 'You must choose an author for this joke.
-        Click &lsquo;back&rsquo; and try again.';
-		include 'error.html.php';
-		exit();
-	}
-
-	try
-	{
-		$sql = 'UPDATE joke SET
-        joketext = :joketext,
-        authorid = :authorid
-        WHERE id = :id';
-		$s = $pdo->prepare($sql);
-		$s->bindValue(':id', $_POST['id']);
-		$s->bindValue(':joketext', $_POST['text']);
-		$s->bindValue(':authorid', $_POST['author']);
-		$s->execute();
-	}
-	catch (PDOException $e)
-	{
-		$error = 'Error updating submitted joke.';
-		include 'error.html.php';
-		exit();
-	}
-
-	try
-	{
-		$sql = 'DELETE FROM jokecategory WHERE jokeid = :id';
-		$s = $pdo->prepare($sql);
-		$s->bindValue(':id', $_POST['id']);
-		$s->execute();
-	}
-	catch (PDOException $e)
-	{
-		$error = 'Error removing obsolete joke category entries.';
-		include 'error.html.php';
-		exit();
-	}
-
-	if (isset($_POST['categories']))
-	{
-		try
-		{
-			$sql = 'INSERT INTO jokecategory SET
-          jokeid = :jokeid,
-          categoryid = :categoryid';
-			$s = $pdo->prepare($sql);
-
-			foreach ($_POST['categories'] as $categoryid)
-			{
-				$s->bindValue(':jokeid', $_POST['id']);
-				$s->bindValue(':categoryid', $categoryid);
-				$s->execute();
-			}
-		}
-		catch (PDOException $e)
-		{
-			$error = 'Error inserting joke into selected categories.';
-			include 'error.html.php';
-			exit();
-		}
-	}
-
-	header('Location: .');
-	exit();
-}
-
-if (isset($_POST['action']) and $_POST['action'] == 'Delete')
-{
-	include $_SERVER['DOCUMENT_ROOT'] . '/includes/db.inc.php';
-
-	// Delete category assignments for this joke
-	try
-	{
-		$sql = 'DELETE FROM jokecategory WHERE jokeid = :id';
-		$s = $pdo->prepare($sql);
-		$s->bindValue(':id', $_POST['id']);
-		$s->execute();
-	}
-	catch (PDOException $e)
-	{
-		$error = 'Error removing joke from categories.';
-		include 'error.html.php';
-		exit();
-	}
-
-	// Delete the joke
-	try
-	{
-		$sql = 'DELETE FROM joke WHERE id = :id';
-		$s = $pdo->prepare($sql);
-		$s->bindValue(':id', $_POST['id']);
-		$s->execute();
-	}
-	catch (PDOException $e)
-	{
-		$error = 'Error deleting joke.';
-		include 'error.html.php';
-		exit();
-	}
-
-	header('Location: .');
-	exit();
-}
-
-if (isset($_GET['action']) and $_GET['action'] == 'search')
-{
-	include $_SERVER['DOCUMENT_ROOT'] . '/includes/db.inc.php';
 
 	// The basic SELECT statement
-	$select = 'SELECT id, joketext';
-	$from   = ' FROM joke';
+	$select = 'SELECT databaseid';
+	$from   = ' FROM $vebraproperties';
 	$where  = ' WHERE TRUE';
 
 	$placeholders = array();
 
-	if ($_GET['author'] != '') // An author is selected
+	if ($_POST['numOfBedSelect'] != '') // An bed num is selected
 	{
-		$where .= " AND authorid = :authorid";
-		$placeholders[':authorid'] = $_GET['author'];
+		$where .= " AND databaseid = :databaseid";
+		$placeholders[':databaseid'] = $_POST['numOfBedSelect'];
 	}
-
-	if ($_GET['category'] != '') // A category is selected
-	{
-		$from  .= ' INNER JOIN jokecategory ON id = jokeid';
-		$where .= " AND categoryid = :categoryid";
-		$placeholders[':categoryid'] = $_GET['category'];
-	}
-
-	if ($_GET['text'] != '') // Some search text was specified
-	{
-		$where .= " AND joketext LIKE :joketext";
-		$placeholders[':joketext'] = '%' . $_GET['text'] . '%';
-	}
-
-
 
 	try
 	{
@@ -404,20 +62,32 @@ if (isset($_GET['action']) and $_GET['action'] == 'search')
 		exit();
 	}
 
+	foreach ($s as $row)
+	{
+//		if ($row <= array('beds' => $row['databaseid'])) {
+			$properties[] = array( 'beds' => $row['databaseid'] );
+//		}else
+//		{
+//			echo "Your Search criteria returned no matches";
+//		}
+	}
 
-		foreach ($s as $row)
-		{
-			$jokes[] = array('id' => $row['id'], 'text' => $row['joketext']);
-		}
+//	header('Location: .');
 
-		include 'jokes.html.php';
-		exit();
-
+	include $_SERVER['DOCUMENT_ROOT'] . '/components/php/snippet-searchResults.php';
+	exit();
 }
 
-// Display search form
-include $_SERVER['DOCUMENT_ROOT'] . '/includes/db.inc.php';
 
+
+//foreach ($_POST as $key => $value)
+//{
+//	echo $value;
+//}
+
+// Display search form
+//include $_SERVER['DOCUMENT_ROOT'] . '/includes/db.inc.php';
+/* //Next search option
 try
 {
 	$result = $pdo->query('SELECT id, name FROM author');
@@ -451,4 +121,73 @@ foreach ($result as $row)
 }
 
 include 'searchform.html.php';
-	*/
+*/
+
+
+
+
+//Checks if value is set for each search option, and assigns values to vars then echos restults
+
+
+
+
+
+/*
+include 'ydd/vebra/API.php';
+include 'ydd/vebra/TokenStorage/File.php';
+
+$tokenStorage = new \YDD\Vebra\TokenStorage\File('middletonun', __DIR__.'/tokens/');
+
+//Now that we have the required parameters and objects, we can create an instance of the API:
+
+
+
+use YDD\Vebra\API as VebraAPI;
+use YDD\Vebra\TokenStorage\File as TokenStorageFile;
+use Buzz\Client\Curl as BuzzClientCurl;
+use Buzz\Message\Factory\Factory as BuzzMessageFactory;
+$api = new VebraAPI(
+		'MIDDLETONAPI',
+		'middletonun',
+		'W@TDhi48',
+		new TokenStorageFile('middletonun', __DIR__.'/tokens/'),
+		new BuzzClientCurl(),
+		new BuzzMessageFactory()
+);
+
+//
+//Retrieve all the branches (as an iterable collection of branch summary objects):
+
+$branchSummaries = $api->getBranches();
+
+
+//Iterate over the branch summary objects and retrieve branch objects for each one:
+
+foreach ($branchSummaries as $branchSummary) {
+	$branch = $api->getBranch($branchSummary->getClientId());
+}
+
+//The returned branch object has accessors for each of the properties:
+echo $branch->getName();
+
+//Retrieve the properties for a given branch (as an iterable collection of property summary objects):
+$propertySummaries = $api->getPropertyList($branch->getClientId());
+
+//Iterate over the property summary objects and retrieve property objects for each one:
+foreach ($propertySummaries as $propertySummary) {
+	$property = $api->getProperty($branch->getClientId(), $propertySummary->getPropId());
+}
+
+//The returned property object has accessors for each of the properties:
+echo $property->getAddress();
+
+//Retrieve properties which have changed since a given date:
+$properties = $api->getChangedProperties(new \DateTime('2012-01-01'));
+
+//Retrieve files which have changed since a given date:
+$files = $api->getChangedFiles(new \DateTime('2012-01-01'));
+
+
+*/
+//TODO max must be higher than min
+

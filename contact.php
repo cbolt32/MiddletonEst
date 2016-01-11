@@ -15,6 +15,9 @@
 				<div class="row">
 					<div class="col-md-12">
 
+						<?php include $_SERVER ['DOCUMENT_ROOT'] . '/components/php/snippet-searchFilter.php';?>
+
+
 					</div>
 				</div>
 			</div>

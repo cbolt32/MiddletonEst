@@ -1,4 +1,6 @@
 
 <h1 class="welcomeText">
-	Welcome To Middleton Estates
+
+	"A moving experience"
 </h1>
+
