@@ -16,22 +16,62 @@ $(function () {
 	//$("[name='my-checkbox']").bootstrapSwitch();
 
 });
+//$(document).ready(function () {
+//
+	$ ('.carousel-inner .item:first').addClass('active');
+
+	$ ('#myCarousel').carousel({
+		interval: 4000
+});
+//	$ ('#myCarousel').carousel('cycle')
+//
+//});
+
+// handles the carousel thumbnails
+$('[id^=carousel-selector-]').click( function(){
+	var id_selector = $(this).attr("id");
+	var id = id_selector.substr(id_selector.length -1);
+	id = parseInt(id);
+	$('#myCarousel').carousel(id);
+	$('[id^=carousel-selector-]').removeClass('selected');
+	$(this).addClass('selected');
+});
+
+// when the carousel slides, auto update
+$('#myCarousel').on('slid', function (e) {
+	var id = $('.item.active').data('slide-number');
+	id = parseInt(id);
+	$('[id^=carousel-selector-]').removeClass('selected');
+	$('[id=carousel-selector-'+id+']').addClass('selected');
+});
+
+//Faceboook recommend/share buttons scripts
+(function(d, s, id) {
+	var js, fjs = d.getElementsByTagName(s)[0];
+	if (d.getElementById(id)) return;
+	js = d.createElement(s); js.id = id;
+	js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5";
+	fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));
 
 
-//to display forms results in div on same page (not working!!)
-//$(document).ready(function() {
-//$('#buyingSearchForm').submit(function() { // catch the form's submit event
-//	$.ajax({ // create an AJAX call...
-//		data: $(this).serialize(), // get the form data
-//		type: $(this).attr('method'), // GET or POST
-//		url: $(this).attr('action'), // the file to call
-//		success: function(response) { // on success..
-//			$('#propSearchResults').html(response); // update the DIV
-//		}
-//	});
-//	return false; // cancel original event to prevent form submitting
-//});
-//});
+//facebook app sdk
+window.fbAsyncInit = function() {
+	FB.init({
+		appId      : '1544445929202148',
+		xfbml      : true,
+		version    : 'v2.5'
+	});
+};
+
+(function(d, s, id){
+	var js, fjs = d.getElementsByTagName(s)[0];
+	if (d.getElementById(id)) {return;}
+	js = d.createElement(s); js.id = id;
+	js.src = "//connect.facebook.net/en_US/sdk.js";
+	fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));
+
 
 /*!
  * Bootstrap-select v1.9.3 (http://silviomoreto.github.io/bootstrap-select)

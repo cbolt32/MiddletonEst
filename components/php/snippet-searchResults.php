@@ -1,62 +1,40 @@
-<div class="col-lg-8 col-md-offset-1 col-md-8 col-sm-8  col-sm-offset-1 col-xs-8  searchResults"
-     xmlns="http://www.w3.org/1999/html">
+<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12  searchResults">
+	<!--	--><?php //include $_SERVER['DOCUMENT_ROOT'] . '/components/php/snippet-AllRows.php' ?>
+	<?php include $_SERVER['DOCUMENT_ROOT'] . '/includes/db.inc.php' ?>
 
 
-	<hgroup class="mb20">
-		<h1>Search Results</h1>
-	</hgroup>
-	<section class="searchResultsAll">
+	<div class="mb20">
+		<!--		<p class="pull-right"><a href="?">New search</a> / <a href="../">Return to Search home</a></p>-->
+		<h2>Properties</h2>
 
-		<?php
+		<!--		--><?php
+		//		//creates pagination display
+		$paginate->paginglink( $query, $records_per_page );
+		//		?>
 
-
-
-		?>
-
-		<div class="searchResultItems" id="propSearchResults"> <!-- Prop Details -->
-			<div class="resultsRow">
-				<div class="resultImg">
-					<img class="img-responsive pull-left" src="http://placehold.it/350x200" alt="">
-
-				</div>
-				<div class="searchBlurb ">
-					<h1>Search Results</h1>
-					<?php include_once $_SERVER['DOCUMENT_ROOT'] . '/includes/helpers.inc.php'; ?>
+	</div>
 
 
-					<?php if (isset($properties)): ?>
-						<table>
-							<tr><th>Joke Text</th><th>Options</th></tr>
-							<?php foreach ($properties as $property): ?>
-								<tr>
-									<p>num of beds is</p>
-									<?php htmlout($property['beds']); ?>
+	<?php
+
+	$paginate->dataview( $newquery );
 
 
-								</tr>
-							<?php endforeach; ?>
-						</table>
-					<?php endif; ?>
-					<p><a href="?">New search</a></p>
-					<p><a href="../">Return to JMS home</a></p>
+	?>
+	<div class="mb20">
 
+<!--		echo '<span class="pull-right">' . $paginate->paginglink($query,$records_per_page) . '</span>';-->
+<!--		// ?>-->
 
-					<p>num of beds is</p>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eposition : relative;position :
-					   relative;position : relatinive;position : relative;position : relative;position :
-					   relative;position
-					   : relative;position : relative;position : relative;
-					</p>
-
-				</div>
-			</div>
-		</div>
-
-	</section>
-<?php
-
-
-?>
+	</div>
 </div>
+
+
+
+
+
+
+
+
 
 

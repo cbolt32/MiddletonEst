@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="DataSourceManagerImpl" format="xml" hash="2330456549">
+  <component name="DataSourceManagerImpl" format="xml" hash="3418178667">
     <data-source source="LOCAL" name="MySQL - vebraDev@localhost" uuid="8fb693c5-fb7d-48c6-9bb4-ca50608348fe">
       <driver-ref>mysql</driver-ref>
       <synchronize>true</synchronize>

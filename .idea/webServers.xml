@@ -16,7 +16,7 @@
         </fileTransfer>
       </webServer>
       <webServer id="91503902-1dc2-44dd-acc2-ce54c3e57ecf" name="middleton_live" url="http://www.middleton-estates.co.uk">
-        <fileTransfer host="50.87.144.105" port="21" username="live@middleton-estates.co.uk">
+        <fileTransfer host="50.87.144.105" port="21" username="Prod@middleton-estates.co.uk">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
           </advancedOptions>

@@ -1,24 +1,27 @@
 
-		<div class=" col-lg-3 col-md-3 col-sm-3
+		<div class=" col-lg-3 col-md-4 col-sm-4
 		 portalBuying">
 			<h3 class="">Find your Home With Us</h3>
 			<p>
-				Buying a property is one of the biggest purchases of your life, and as part of Countrywide, the UK's largest residential property group, our estate agents can help you at every stage of your property purchase. :
+				Middleton Estates recognise that buying a property is one of the biggest purchases of your life. Our experienced and friendly team will be on hand to provide a personal experience throughout the whole process.
 			</p>
-			<p><a class="btn btn-default pull-right" href="buying.php" role="button">View details &raquo;</a></p>
+			<a class="btn btn-default pull-right" href="http://www.rightmove.co.uk/estate-agents/agent/Middleton-Estates/Shoreham-By-Sea-150698.html" role="button">Properties &raquo;</a>
 		</div>
-		<div class="col-lg-3 col-md-3 col-sm-3 portalSelling">
-			<h3 class="">Property Sales</h3>
+		<div class="col-lg-3 col-md-4 col-sm-4 portalSelling">
+			<h3 class="">Free Valuation</h3>
 			<p>
-				Selling your property can be a stressful and difficult time, luckily we can offer expert advice at every stage of the sale of your property. As part of Countrywide, the UK’s largest residential property company, we have the experience and expertise to make your sale as trouble free as possible, offering a full range of property services to help you at every stage of your transaction.
+				We provide a free and comprehensive valuation to all of our potential customers, giving you all you
+				need to help make your decision.
+				To request a free valuation please contact us to arrange a convenient time for us to pop round, or
+				come and meet the team in our boutique office.
 			</p>
-			<p><a class="btn btn-default pull-right" href="selling.php" role="button">View details &raquo;</a></p>
+			<a class="btn btn-default pull-right" href="contact.php" role="button">Contact Us &raquo;</a>
 		</div>
-		<div class="col-lg-3 col-md-3 col-sm-3 portalLetting">
-			<h3 class="">Free Valuations!s</h3>
+		<div class="col-lg-3 col-md-4 col-sm-4 portalLetting">
+			<h3 class="">Rentals</h3>
 			<p>
-				Being a tenant is a great lifestyle choice that offers you flexibility when you need it the most. As part of Countrywide, the UK’s largest residential property group, we can offer you a full range of services to help you at every stage of your tenancy. Find our wide range of Countrywide’s specialist tenant services.
+				Middleton Estates can assist you with any manner of enquires relating to letting a property. Whether you are a landlord or a tenant our vision is to make the rental experience hassle free. Get in touch if you have any questions.
 			</p>
-			<p><a class="btn btn-default pull-right" href="letting.php" role="button">View details &raquo;</a></p>
+			<a class="btn btn-default pull-right" href="contact.php" role="button">Contact Us &raquo;</a>
 		</div>
 

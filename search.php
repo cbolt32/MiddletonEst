@@ -8,20 +8,28 @@
 
 	<body class="body" id="searchPage">
 
+
+
 		<div class="pageHead">
 			<?php include 'components/php/pageHead.inc.php' ;?>
 		</div>
-
+<?php function cbOutput ($data)
+{
+	if ( $data != NULL)
+	{
+		return $data ;
+	}
+};  ?>
 		<div class="container">
-			<div class="mainContent">
-				<div class="row">
-<!--					<div class="col-md-12">-->
-
+<!--			<div class="mainContent">-->
+<!--				<div class="row">-->
+					<div class="col-md-12">
+<!--todo uncomment these for full production site-->
 						<?php include 'components/php/snippet-searchFilter.php';?>
-					<?php include'components/php/snippet-searchResults.php' ;?>
+<!--					--><?php //include'components/php/snippet-searchResults.php' ;?>
 
 <!--					</div>-->
-				</div>
+<!--				</div>-->
 <!--				><div class="row">-->
 <!--				-->
 <!--				</div-->
@@ -34,8 +42,6 @@
 			<?php include 'components/php/footer.inc.php' ;?>
 
 		</footer>
-
-
 
 
 	</body>

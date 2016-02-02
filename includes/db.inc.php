@@ -27,3 +27,7 @@ catch (PDOException $e)
     exit();
 }
 
+include_once $_SERVER['DOCUMENT_ROOT']  . '/components/php/pagination.php';
+
+//creates variable for pagination connetion to db
+$paginate = new paginate($pdo);

@@ -7,7 +7,9 @@
     </data-source>
     <data-source name="MySQL - @localhost" uuid="b1700416-9f14-4025-8d57-82cc4a98ab1f">
       <secret-storage>master_key</secret-storage>
-      <first-sync>true</first-sync>
+      <user-name>vebraAdmin</user-name>
+      <schema-pattern>test.*</schema-pattern>
+      <default-schemas>test.*</default-schemas>
     </data-source>
   </component>
 </project>

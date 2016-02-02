@@ -1,132 +1,139 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/components/php/snippet-searchResults.php" description="&#9;&lt;/div&gt;&#10;" line="28" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="68da62fc-df8f-4ed1-9e42-f4c893356bf5" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/AVGARDDO.TTF" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/Bathroom-pink-1-1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/HG-Gray-Kitchen-1_1000.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/MidLogo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/Picasa playing-1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/Picasa playing.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/kitch.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/modest.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/components/php/BUsnippet-searchContent.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/components/php/snippet-searchFilter.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/components/php/snippet-searchResults.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/middleton logo m.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/vebra/vebra-dataConnect.php" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/YDD/Vebra/API.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/YDD/Vebra/Exception/ForbiddenException.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/YDD/Vebra/Exception/GoneException.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/YDD/Vebra/Exception/InternalServerErrorException.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/YDD/Vebra/Exception/NoContentException.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/YDD/Vebra/Exception/NotFoundException.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/YDD/Vebra/Exception/NotImplementedException.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/YDD/Vebra/Exception/NotModifiedException.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/YDD/Vebra/Exception/UnauthorizedException.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/YDD/Vebra/Exception/UnknownStatusCodeException.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/YDD/Vebra/Exception/XMLParsingException.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/YDD/Vebra/Model/Address.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/YDD/Vebra/Model/Area.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/YDD/Vebra/Model/AttributedModel.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/YDD/Vebra/Model/Branch.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/YDD/Vebra/Model/BranchSummary.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/YDD/Vebra/Model/Bullet.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/YDD/Vebra/Model/ChangedFileSummary.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/YDD/Vebra/Model/ChangedPropertySummary.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/YDD/Vebra/Model/Dimension.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/YDD/Vebra/Model/EnergyRatingPair.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/YDD/Vebra/Model/File.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/YDD/Vebra/Model/Paragraph.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/YDD/Vebra/Model/Price.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/YDD/Vebra/Model/Property.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/YDD/Vebra/Model/PropertySummary.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/YDD/Vebra/TokenStorage/Base.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/YDD/Vebra/TokenStorage/File.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/YDD/Vebra/TokenStorage/TokenStorageInterface.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_training/addjoke/error.html.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_training/addjoke/form.html.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_training/addjoke/index.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_training/addjoke/jokes.html.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_training/admin/1.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_training/admin/authors/authors.html.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_training/admin/authors/error.html.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_training/admin/authors/form.html.inc.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_training/admin/authors/index.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_training/admin/categories/_error.html.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_training/admin/categories/categories.html.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_training/admin/categories/form.html.inc.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_training/admin/categories/index.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_training/admin/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_training/admin/jokes/error.html.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_training/admin/jokes/failed.html.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_training/admin/jokes/form.html.inc.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_training/admin/jokes/jokes.html.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_training/admin/jokes/searchform.html.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_training/connect/index.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_training/count10/count.html.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_training/count10/index.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_training/createtable/index.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_training/createtable/output2.html.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_training/includes/db.inc.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_training/includes/helpers.inc.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_training/includes/magicQuotes.inc.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_training/jokes/error.html.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_training/jokes/form.html.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_training/jokes/index.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_training/jokes/jokes.html.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_training/listjokes/error.html.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_training/listjokes/index.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_training/listjokes/jokes.html.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_training/today/index.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_training/updateChicken/index.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_training/updateChicken/output1.html.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_training/welcome/form.html.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_training/welcome/index.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_training/welcome/welcome.html.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/php/snippet-buyContent.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/php/test.php" afterPath="" />
+    <list default="true" id="68da62fc-df8f-4ed1-9e42-f4c893356bf5" name="Default" comment="Nav lined up with title, and fixed break on all screen sizes, search results implented pulling all in from db">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/FontAwesome.otf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/fontawesome-webfont.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/fontawesome-webfont.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/fontawesome-webfont.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/fontawesome-webfont.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/Icons/bathtub.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/Icons/bed.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/Icons/house.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/office.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/otherVendor/lfindaproperty.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/otherVendor/pl.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/otherVendor/propOmb.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/otherVendor/rm.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/otherVendor/zoopla.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/sc_bw.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/social/facebook.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/social/google plus.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/social/linkedin.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/storeFront.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/team/SC2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/team/TM.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/tm_bw.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/YDD/Vebra/API.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/YDD/Vebra/Exception/ForbiddenException.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/YDD/Vebra/Exception/GoneException.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/YDD/Vebra/Exception/InternalServerErrorException.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/YDD/Vebra/Exception/NoContentException.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/YDD/Vebra/Exception/NotFoundException.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/YDD/Vebra/Exception/NotImplementedException.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/YDD/Vebra/Exception/NotModifiedException.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/YDD/Vebra/Exception/UnauthorizedException.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/YDD/Vebra/Exception/UnknownStatusCodeException.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/YDD/Vebra/Exception/XMLParsingException.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/YDD/Vebra/Model/Address.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/YDD/Vebra/Model/Area.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/YDD/Vebra/Model/AttributedModel.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/YDD/Vebra/Model/Branch.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/YDD/Vebra/Model/BranchSummary.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/YDD/Vebra/Model/Bullet.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/YDD/Vebra/Model/ChangedFileSummary.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/YDD/Vebra/Model/ChangedPropertySummary.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/YDD/Vebra/Model/Dimension.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/YDD/Vebra/Model/EnergyRatingPair.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/YDD/Vebra/Model/File.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/YDD/Vebra/Model/Paragraph.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/YDD/Vebra/Model/Price.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/YDD/Vebra/Model/Property.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/YDD/Vebra/Model/PropertySummary.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/YDD/Vebra/TokenStorage/Base.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/YDD/Vebra/TokenStorage/File.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/YDD/Vebra/TokenStorage/TokenStorageInterface.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/components/less/FontAwesome/animated.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/components/less/FontAwesome/bordered-pulled.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/components/less/FontAwesome/core.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/components/less/FontAwesome/fixed-width.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/components/less/FontAwesome/font-awesome.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/components/less/FontAwesome/icons.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/components/less/FontAwesome/larger.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/components/less/FontAwesome/list.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/components/less/FontAwesome/mixins.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/components/less/FontAwesome/path.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/components/less/FontAwesome/rotated-flipped.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/components/less/FontAwesome/stacked.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/components/less/FontAwesome/variables.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/components/less/TinyBreakpoints.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/components/php/LIVEsnippet-searchFilter.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/components/php/article-testomonials.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/components/php/holding.inc.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/components/php/modalPropertyDetails.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/components/php/pagination.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/components/php/script-contactFormValidation.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/components/php/snippet-AllRows.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/components/php/snippet-contact.inc.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/components/php/tracking.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/meStyles.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/fontawesome-webfont.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/error.html.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/propertylist.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/vebra/apiLogin.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/vebra/listOfPropertiesXML.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/vebra/login.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/vebra/propertyList.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/index..holding.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/licences/Facebook/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sitemap.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ydd.php" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/php/BUsnippet-searchContent.php" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/composer.phar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/Adur-at-Night245e.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/drchase.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/drsanders.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/drwinthrop.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/icon-exoticpets.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/icon-grooming.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/icon-health.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/icon-nutrition.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/icon-pestcontrol.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/icon-vaccinations.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/reptiles.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/skyline.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sales.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/search/areaCats.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/search/includes/db.inc.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/search/includes/helpers.inc.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/search/includes/magicQuotes.inc.php" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/buying.php" afterPath="$PROJECT_DIR$/search.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dummy.php" afterPath="$PROJECT_DIR$/Testimonials.php" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/mystyles.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/IMG_3252.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/IMG_5344.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/IMG_5361.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/MidLogo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/Picasa playing.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/tm.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/includes/vebra/vebra-dataConnect.php" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.ids" afterPath="$PROJECT_DIR$/.idea/dataSources.ids" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/_.iml" afterPath="$PROJECT_DIR$/.idea/_.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/php.xml" afterPath="$PROJECT_DIR$/.idea/php.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/webServers.xml" afterPath="$PROJECT_DIR$/.idea/webServers.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/css/bootstrap.css" afterPath="$PROJECT_DIR$/components/css/bootstrap.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Testimonials.php" afterPath="$PROJECT_DIR$/Testimonials.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/css/theme.css" afterPath="$PROJECT_DIR$/components/css/theme.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/js/_myscripts.js" afterPath="$PROJECT_DIR$/components/js/_myscripts.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/less/_mystyles.less" afterPath="$PROJECT_DIR$/components/less/_mystyles.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/less/bootstrap.less" afterPath="$PROJECT_DIR$/components/less/bootstrap.less" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/less/variables.less" afterPath="$PROJECT_DIR$/components/less/variables.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/php/footer.inc.php" afterPath="$PROJECT_DIR$/components/php/footer.inc.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/php/header.inc.php" afterPath="$PROJECT_DIR$/components/php/header.inc.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/php/infoPortalAbout.inc.php" afterPath="$PROJECT_DIR$/components/php/infoPortalAbout.inc.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/php/infoPortals.inc.php" afterPath="$PROJECT_DIR$/components/php/infoPortals.inc.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/php/pageHead.inc.php" afterPath="$PROJECT_DIR$/components/php/pageHead.inc.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/php/snippet-about.inc.php" afterPath="$PROJECT_DIR$/components/php/snippet-about.inc.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/php/snippet-welcome.php" afterPath="$PROJECT_DIR$/components/php/snippet-welcome.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/php/snippet-searchFilter.php" afterPath="$PROJECT_DIR$/components/php/snippet-searchFilter.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/php/snippet-searchResults.php" afterPath="$PROJECT_DIR$/components/php/snippet-searchResults.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.json" afterPath="$PROJECT_DIR$/composer.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config.codekit" afterPath="$PROJECT_DIR$/config.codekit" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/contact.php" afterPath="$PROJECT_DIR$/contact.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/bootstrap.css" afterPath="$PROJECT_DIR$/css/bootstrap.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/mystyles.css" afterPath="$PROJECT_DIR$/css/mystyles.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/db.inc.php" afterPath="$PROJECT_DIR$/includes/db.inc.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/helpers.inc.php" afterPath="$PROJECT_DIR$/includes/helpers.inc.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/myscripts.js" afterPath="$PROJECT_DIR$/js/myscripts.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/myscripts.map" afterPath="$PROJECT_DIR$/js/myscripts.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/letting.php" afterPath="$PROJECT_DIR$/letting.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/name.php" afterPath="$PROJECT_DIR$/name.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/robots.txt" afterPath="$PROJECT_DIR$/robots.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/search.php" afterPath="$PROJECT_DIR$/search.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/search/error.html.php" afterPath="$PROJECT_DIR$/search/error.html.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/search/index.php" afterPath="$PROJECT_DIR$/search/index.php" />
     </list>
     <ignored path="_.iws" />
@@ -150,7 +157,7 @@
   </component>
   <component name="DatabaseView">
     <option name="GROUP_SCHEMA" value="true" />
-    <option name="GROUP_CONTENTS" value="false" />
+    <option name="GROUP_CONTENTS" value="true" />
     <option name="SORT_POSITIONED" value="false" />
     <option name="SHOW_TABLE_DETAILS" value="true" />
     <option name="SHOW_EMPTY_GROUPS" value="false" />
@@ -177,10 +184,6 @@
         <option name="myItemId" value="Middleton_Dev" />
         <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
       </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="$vebraproperties" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
     </PATH>
     <PATH>
       <PATH_ELEMENT>
@@ -195,6 +198,10 @@
         <option name="myItemId" value="Middleton_Dev" />
         <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
       </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="propertypara" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
     </PATH>
     <PATH>
       <PATH_ELEMENT>
@@ -203,111 +210,71 @@
       </PATH_ELEMENT>
     </PATH>
   </component>
+  <component name="ErrorTreeViewConfiguration">
+    <option name="autoscrollToSource" value="true" />
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="true" />
+  </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
     <favorites_list name="_" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.4898949">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="snippet-searchResults.php" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/components/php/snippet-searchResults.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-5.5384617">
-                  <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="vebra-dataConnect.php" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/includes/vebra/vebra-dataConnect.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-56.347828">
-                  <caret line="121" column="9" selection-start-line="121" selection-start-column="9" selection-end-line="121" selection-end-column="9" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="search.php" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/search.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-2.0869565">
-                  <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="snippet-searchFilter.php" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/components/php/snippet-searchFilter.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="1.4598215">
-                  <caret line="136" column="28" selection-start-line="136" selection-start-column="28" selection-end-line="136" selection-end-column="28" />
-                  <folding>
-                    <marker date="1452539561000" expanded="true" signature="371:1346" placeholder="..." />
-                    <marker date="1452539561000" expanded="true" signature="482:767" placeholder="..." />
-                    <marker date="1452539561000" expanded="true" signature="595:757" placeholder="..." />
-                    <marker date="1452539561000" expanded="true" signature="817:1346" placeholder="..." />
-                    <marker date="1452539561000" expanded="true" signature="933:1346" placeholder="..." />
-                    <marker date="1452539561000" expanded="true" signature="1611:2217" placeholder="..." />
-                    <marker date="1452539561000" expanded="true" signature="1745:2207" placeholder="..." />
-                    <marker date="1452539561000" expanded="true" signature="2306:3143" placeholder="..." />
-                    <marker date="1452539561000" expanded="true" signature="2451:3133" placeholder="..." />
-                    <marker date="1452539561000" expanded="true" signature="3234:4217" placeholder="..." />
-                    <marker date="1452539561000" expanded="true" signature="3501:3502" placeholder="..." />
-                    <marker date="1452539561000" expanded="true" signature="4267:5213" placeholder="..." />
-                    <marker date="1452539561000" expanded="true" signature="4435:5203" placeholder="..." />
-                    <marker date="1452539561000" expanded="true" signature="5264:5497" placeholder="..." />
-                    <marker date="1452539561000" expanded="true" signature="5319:5487" placeholder="..." />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/search/index.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.61586314">
-                  <caret line="30" column="68" selection-start-line="30" selection-start-column="68" selection-end-line="30" selection-end-column="68" />
-                  <folding>
-                    <marker date="1452539874000" expanded="true" signature="365:453" placeholder="SELECT DISTI..$vebraproperties..." />
-                    <marker date="1452539874000" expanded="true" signature="2062:2089" placeholder="SELECT id, n..author..." />
-                    <marker date="1452539874000" expanded="true" signature="2337:2366" placeholder="SELECT id, n..category..." />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="name.php" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/name.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-1.5652174">
-                  <caret line="3" column="10" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="_myscripts.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/components/js/_myscripts.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0">
-                  <caret line="239" column="4" selection-start-line="239" selection-start-column="4" selection-end-line="239" selection-end-column="4" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="header.inc.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/components/php/header.inc.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-3.4615386">
+              <caret line="5" column="104" selection-start-line="5" selection-start-column="104" selection-end-line="5" selection-end-column="104" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="robots.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/robots.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="favicon.ico" pinned="true" current-in-tab="false">
+        <entry file="REMOTE_DEPLOYMENT_FS://&lt;38234188-979a-4c0c-9d5a-0706eeb66eba&gt;/dev/favicon.ico">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="modest.jpg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/images/modest.jpg">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="true" current-in-tab="true">
+        <entry file="REMOTE_DEPLOYMENT_FS://&lt;91503902-1dc2-44dd-acc2-ce54c3e57ecf&gt;/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.06282722">
+              <caret line="2" column="10" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-2.0769231">
+              <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -318,67 +285,72 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Chris" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="50ead7c72c6659e4d4b48a5f61895dc9ca1ee1e2" />
       </map>
     </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/_training/admin/categories/form.html.inc.php" />
-        <option value="$PROJECT_DIR$/includes/db.inc.php" />
-        <option value="$PROJECT_DIR$/search/searchform.html.php" />
-        <option value="$PROJECT_DIR$/includes/vebra-dataConnect.php" />
-        <option value="$PROJECT_DIR$/composer.json" />
-        <option value="$PROJECT_DIR$/includes/vebra/vebra-dataConnect.php" />
-        <option value="$PROJECT_DIR$/components/php/header.inc.php" />
-        <option value="$PROJECT_DIR$/_wpVer/components/php/header.inc.php" />
         <option value="$PROJECT_DIR$/components/css/bootstrap.css" />
-        <option value="$PROJECT_DIR$/includes/helpers.inc.php" />
-        <option value="$PROJECT_DIR$/components/php/snippet-buyContent.php" />
-        <option value="$PROJECT_DIR$/index.php" />
-        <option value="$PROJECT_DIR$/components/less/variables.less" />
-        <option value="$PROJECT_DIR$/letting.php" />
-        <option value="$PROJECT_DIR$/buying.php" />
-        <option value="$PROJECT_DIR$/Testimonials.php" />
-        <option value="$PROJECT_DIR$/components/php/pageHead.inc.php" />
-        <option value="$PROJECT_DIR$/components/php/infoPortals.inc.php" />
-        <option value="$PROJECT_DIR$/components/php/snippet-about.inc.php" />
-        <option value="/Applications/MAMP/bin/php/php5.6.10/conf/php.ini" />
-        <option value="$PROJECT_DIR$/headers.txt" />
-        <option value="$PROJECT_DIR$/index.test.php" />
-        <option value="$PROJECT_DIR$/components/php/snippet-welcome.php" />
-        <option value="$PROJECT_DIR$/contact.php" />
-        <option value="$PROJECT_DIR$/components/php/snippet-searchContent.php" />
-        <option value="$PROJECT_DIR$/components/less/_mystyles.less" />
-        <option value="$PROJECT_DIR$/_training/chapter7/includes/db.inc.php" />
-        <option value="$PROJECT_DIR$/_training/chapter7/admin/jokes/searchform.html.php" />
-        <option value="$PROJECT_DIR$/_training/chapter7/admin/jokes/index.php" />
-        <option value="$PROJECT_DIR$/_training/chapter7/admin/jokes/jokes.html.php" />
+        <option value="$PROJECT_DIR$/components/css/theme.css" />
+        <option value="$PROJECT_DIR$/includes/ydd.php" />
+        <option value="$PROJECT_DIR$/ydd.php" />
+        <option value="&lt;38234188-979a-4c0c-9d5a-0706eeb66eba&gt;/dev/components/php/header.inc.php" />
+        <option value="&lt;38234188-979a-4c0c-9d5a-0706eeb66eba&gt;/dev/index.php" />
+        <option value="&lt;38234188-979a-4c0c-9d5a-0706eeb66eba&gt;/dev/about.php" />
+        <option value="&lt;38234188-979a-4c0c-9d5a-0706eeb66eba&gt;/dev/includes/vebra/listOfPropertiesXML.php" />
+        <option value="&lt;38234188-979a-4c0c-9d5a-0706eeb66eba&gt;/dev/includes/vebra/apiLogin.php" />
+        <option value="&lt;38234188-979a-4c0c-9d5a-0706eeb66eba&gt;/dev/Testimonials.php" />
+        <option value="&lt;38234188-979a-4c0c-9d5a-0706eeb66eba&gt;/dev/search/index.php" />
+        <option value="&lt;38234188-979a-4c0c-9d5a-0706eeb66eba&gt;/dev/contact.php" />
+        <option value="&lt;38234188-979a-4c0c-9d5a-0706eeb66eba&gt;/dev/components/php/snippet-contact.inc.php" />
+        <option value="&lt;38234188-979a-4c0c-9d5a-0706eeb66eba&gt;/dev/components/php/article-testomonials.php" />
+        <option value="&lt;38234188-979a-4c0c-9d5a-0706eeb66eba&gt;/dev/css/mystyles.css" />
+        <option value="&lt;38234188-979a-4c0c-9d5a-0706eeb66eba&gt;/dev/components/php/snippet-searchResults.php" />
+        <option value="&lt;38234188-979a-4c0c-9d5a-0706eeb66eba&gt;/dev/includes/vebra/login.php" />
+        <option value="&lt;38234188-979a-4c0c-9d5a-0706eeb66eba&gt;/dev/includes/db.inc.php" />
+        <option value="&lt;38234188-979a-4c0c-9d5a-0706eeb66eba&gt;/dev/components/php/snippet-searchFilter.php" />
         <option value="$PROJECT_DIR$/components/js/_myscripts.js" />
-        <option value="suspended.hostgator.com/js/simple-expand.min.js" />
-        <option value="chrome-extension://eadndfjplgieldjbigjakmdgkmoaaaoc/content.js" />
-        <option value="chrome-extension://omioeahgfecgfpfldejlnideemfidnkc/external_contentscript_siteoverlay_bin.js" />
-        <option value="chrome-extension://afoibpobokebhgfnknfndkgemglggomo/outliner.min.js" />
-        <option value="chrome-extension://afoibpobokebhgfnknfndkgemglggomo/createOutline.js" />
-        <option value="chrome-extension://dmnddeddcgdllibmaodanoonljfdmooc/scripts/vendor/portWrapper.js" />
-        <option value="chrome-extension://dmnddeddcgdllibmaodanoonljfdmooc/scripts/namespace.js" />
-        <option value="chrome-extension://dmnddeddcgdllibmaodanoonljfdmooc/scripts/inject.js" />
-        <option value="chrome-extension://aomjjhallfgjeglblehebfpbcfeobpgk/data/src/end.min.js" />
-        <option value="chrome-extension://dogkpdfcklifaemcdfbildhcofnopogp/chrome-state-manager.js" />
-        <option value="$PROJECT_DIR$/name.php" />
-        <option value="$PROJECT_DIR$/includes/vebra/test2.xml" />
-        <option value="$PROJECT_DIR$/includes/vebra/test.xml" />
-        <option value="$PROJECT_DIR$/includes/vebra/parsetest.php" />
-        <option value="$PROJECT_DIR$/ydd/vebra/API.php" />
-        <option value="code.jquery.com/jquery-1.9.1.js" />
-        <option value="$PROJECT_DIR$/search.php" />
         <option value="$PROJECT_DIR$/components/php/snippet-searchResults.php" />
-        <option value="$PROJECT_DIR$/components/php/snippet-searchFilter.php" />
+        <option value="$PROJECT_DIR$/components/php/pagination.php" />
+        <option value="$PROJECT_DIR$/includes/db.inc.php" />
+        <option value="$PROJECT_DIR$/includes/vebra/listOfPropertiesXML.php" />
         <option value="$PROJECT_DIR$/search/index.php" />
+        <option value="$PROJECT_DIR$/components/php/modalPropertyDetails.php" />
+        <option value="$PROJECT_DIR$/components/less/TinyBreakpoints.less" />
+        <option value="$PROJECT_DIR$/components/less/bootstrap.less" />
+        <option value="$PROJECT_DIR$/css/bootstrap.css" />
+        <option value="$PROJECT_DIR$/css/mystyles.css" />
+        <option value="$PROJECT_DIR$/search.php" />
+        <option value="$PROJECT_DIR$/components/php/snippet-searchFilter.php" />
+        <option value="$PROJECT_DIR$/components/php/infoPortals.inc.php" />
+        <option value="$PROJECT_DIR$/components/php/snippet-contact.inc.php" />
+        <option value="$PROJECT_DIR$/components/less/variables.less" />
+        <option value="$PROJECT_DIR$/components/less/_mystyles.less" />
+        <option value="$PROJECT_DIR$/components/php/footer.inc.php" />
+        <option value="$PROJECT_DIR$/components/php/article-testomonials.php" />
+        <option value="&lt;91503902-1dc2-44dd-acc2-ce54c3e57ecf&gt;/components/php/snippet-contact.inc.php" />
+        <option value="&lt;91503902-1dc2-44dd-acc2-ce54c3e57ecf&gt;/components/php/pageHead.inc.php" />
+        <option value="$PROJECT_DIR$/components/php/script-contactFormValidation.php" />
+        <option value="&lt;91503902-1dc2-44dd-acc2-ce54c3e57ecf&gt;/components/php/script-contactFormValidation.php" />
+        <option value="&lt;91503902-1dc2-44dd-acc2-ce54c3e57ecf&gt;/components/php/footer.inc.php" />
+        <option value="&lt;91503902-1dc2-44dd-acc2-ce54c3e57ecf&gt;/components/php/snippet-about.inc.php" />
+        <option value="&lt;91503902-1dc2-44dd-acc2-ce54c3e57ecf&gt;/css/meStyles.css" />
+        <option value="$PROJECT_DIR$/components/php/snippet-about.inc.php" />
+        <option value="$PROJECT_DIR$/components/php/infoPortalAbout.inc.php" />
+        <option value="$PROJECT_DIR$/components/php/header.inc.php" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/robots.txt" />
+        <option value="&lt;91503902-1dc2-44dd-acc2-ce54c3e57ecf&gt;/index.php" />
       </list>
     </option>
   </component>
@@ -387,9 +359,7 @@
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
   </component>
-  <component name="PHPCodeSnifferProjectConfiguration">
-    <option name="selectedConfigurationId" value="DEFAULT_INTERPRETER" />
-  </component>
+  <component name="PhpDebugGeneral" xdebug_show_addresses="true" />
   <component name="PhpServers">
     <servers>
       <server host="middleton" id="6d075c0e-ef81-4526-b9e7-bf0360a4078d" name="middleton" use_path_mappings="true" />
@@ -399,12 +369,40 @@
     </servers>
   </component>
   <component name="PhpWebServerValidation" deployment_server_id="a40ebf94-2a9b-4a4c-bb2f-35daeb6fc36c" path_to_validation_script="$PROJECT_DIR$" selected_validation_type="LOCAL" web_path_to_validation_script="middleton/" />
-  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP 5.6 Mamp" />
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP 5.6 Mamp">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/sebastian/diff" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/version" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-file-iterator" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-timer" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-text-template" />
+      <path value="$PROJECT_DIR$/vendor/phpspec/prophecy" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-token-stream" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-code-coverage" />
+      <path value="$PROJECT_DIR$/vendor/hamcrest/hamcrest-php" />
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/streams" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/ringphp" />
+      <path value="$PROJECT_DIR$/vendor/mockery/mockery" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/guzzle" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/phpunit" />
+      <path value="$PROJECT_DIR$/vendor/react/promise" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock" />
+      <path value="$PROJECT_DIR$/vendor/symfony/yaml" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/global-state" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/comparator" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/environment" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/exporter" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/recursion-context" />
+    </include_path>
+  </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="459" />
-    <option name="y" value="7" />
-    <option name="width" value="1452" />
-    <option name="height" value="1177" />
+    <option name="x" value="561" />
+    <option name="y" value="14" />
+    <option name="width" value="1313" />
+    <option name="height" value="1111" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -462,6 +460,150 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="_">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="_" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="_" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="_" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="_" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="_" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="YDD" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Vebra" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="_" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="_" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="search" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="_" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="_" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="images" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="_" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="_" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="images" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="team" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="_" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="_" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="_" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="_" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="php" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="_" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="_" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="Scratches">
         <subPane>
           <PATH>
@@ -496,86 +638,6 @@
             <PATH_ELEMENT>
               <option name="myItemId" />
               <option name="myItemType" value="com.intellij.ide.scratch.ScratchProjectViewPane$MyProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="_" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="_" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="_" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="_" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="_" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="search" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="_" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="_" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="includes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="_" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="_" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="includes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vebra" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="Scope">
-        <subPane subId="Project Files">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="_">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -687,9 +749,9 @@
     <property name="options.searchVisible" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Font" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/search.php" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/images/Background" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="Console.TableResult.DefaultCopyAction" value="HTML Table with Header" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
@@ -700,34 +762,34 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/components/php" />
-      <recent name="$PROJECT_DIR$/wpVebra" />
-      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/images" />
+      <recent name="$PROJECT_DIR$/components/php" />
+      <recent name="$PROJECT_DIR$/includes" />
       <recent name="$PROJECT_DIR$/fonts" />
+      <recent name="$PROJECT_DIR$/components/less/FontAwesome" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/_training" />
-      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/images" />
-      <recent name="$PROJECT_DIR$/includes/vebra" />
-      <recent name="$PROJECT_DIR$/components/php" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/images/" />
+      <recent name="$PROJECT_DIR$/images/Background" />
+      <recent name="$PROJECT_DIR$/images/team" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.VebraConnect.php">
-    <configuration default="false" name="VebraConnect.php" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" uri="http://www.middleton-estates.co.uk/dev/search/index.php">
+  <component name="RunManager" selected="PHP Script.listOfPropertiesXML.php">
+    <configuration default="false" name="ydd.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/ydd.php">
       <method />
     </configuration>
-    <configuration default="false" name="Main Search" type="PhpLocalRunConfigurationType" factoryName="PHP Console" activateToolWindowBeforeRun="false" singleton="true" temporary="true" path="$PROJECT_DIR$/search.php">
+    <configuration default="false" name="index.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/search/index.php">
       <method />
     </configuration>
-    <configuration default="false" name="name.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/name.php">
+    <configuration default="false" name="modalPropertyDetails.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/components/php/modalPropertyDetails.php">
       <method />
     </configuration>
-    <configuration default="false" name="API.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/ydd/vebra/API.php">
+    <configuration default="false" name="pagination.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/components/php/pagination.php">
       <method />
     </configuration>
-    <configuration default="false" name="autoload.php" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://www.middleton-estates.co.uk/dev/composer.phar/vendor/autoload.php">
+    <configuration default="false" name="listOfPropertiesXML.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/includes/vebra/listOfPropertiesXML.php">
       <method />
     </configuration>
     <configuration default="true" type="DBNStatementRunConfiguration" factoryName="DB Statement">
@@ -778,10 +840,20 @@
     <configuration default="false" name="index.php" type="JavascriptDebugType" factoryName="JavaScript Debug" nameIsGenerated="true" uri="http://localhost:63342/_/jokes/index.php">
       <method />
     </configuration>
+    <configuration default="false" name="Unnamed" type="PhpHttpRequestRunConfigurationType" factoryName="PHP HTTP Request" server_name="middleton">
+      <HttpRequestSettings request_method="POST" />
+      <method />
+    </configuration>
     <configuration default="false" name="XMLParse" type="PhpLocalRunConfigurationType" factoryName="PHP Console" path="$PROJECT_DIR$/includes/vebra/parsetest.php">
       <method />
     </configuration>
     <configuration default="false" name="Vebra" type="PhpLocalRunConfigurationType" factoryName="PHP Console" path="$PROJECT_DIR$/includes/vebra/vebra-dataConnect.php">
+      <method />
+    </configuration>
+    <configuration default="false" name="Run Script" type="PhpLocalRunConfigurationType" factoryName="PHP Console" path="$PROJECT_DIR$/components/php/script-contactFormValidation.php">
+      <method />
+    </configuration>
+    <configuration default="false" name="veb" type="PhpWebAppRunConfigurationType" factoryName="PHP Web Application" server_name="middleton" start_url="middleton/includes/vebra">
       <method />
     </configuration>
     <configuration default="false" name="Search/Index.php" type="PhpWebAppRunConfigurationType" factoryName="PHP Web Application" browser="e5120d43-2c3f-47ef-9f26-65e539e05186" server_name="Unnamed" start_url="/search/index.php">
@@ -790,25 +862,28 @@
     <configuration default="false" name="Mid Search" type="PhpWebAppRunConfigurationType" factoryName="PHP Web Application" browser="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" server_name="middleton">
       <method />
     </configuration>
-    <list size="10">
+    <list size="13">
       <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index.php" />
-      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.VebraConnect.php" />
+      <item index="1" class="java.lang.String" itemvalue="PHP HTTP Request.Unnamed" />
       <item index="2" class="java.lang.String" itemvalue="PHP Script.XMLParse" />
       <item index="3" class="java.lang.String" itemvalue="PHP Script.Vebra" />
-      <item index="4" class="java.lang.String" itemvalue="PHP Script.Main Search" />
-      <item index="5" class="java.lang.String" itemvalue="PHP Web Application.Search/Index.php" />
-      <item index="6" class="java.lang.String" itemvalue="PHP Web Application.Mid Search" />
-      <item index="7" class="java.lang.String" itemvalue="PHP Script.name.php" />
-      <item index="8" class="java.lang.String" itemvalue="PHP Script.API.php" />
-      <item index="9" class="java.lang.String" itemvalue="JavaScript Debug.autoload.php" />
+      <item index="4" class="java.lang.String" itemvalue="PHP Script.Run Script" />
+      <item index="5" class="java.lang.String" itemvalue="PHP Web Application.veb" />
+      <item index="6" class="java.lang.String" itemvalue="PHP Web Application.Search/Index.php" />
+      <item index="7" class="java.lang.String" itemvalue="PHP Web Application.Mid Search" />
+      <item index="8" class="java.lang.String" itemvalue="PHP Script.ydd.php" />
+      <item index="9" class="java.lang.String" itemvalue="PHP Script.index.php" />
+      <item index="10" class="java.lang.String" itemvalue="PHP Script.modalPropertyDetails.php" />
+      <item index="11" class="java.lang.String" itemvalue="PHP Script.pagination.php" />
+      <item index="12" class="java.lang.String" itemvalue="PHP Script.listOfPropertiesXML.php" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.VebraConnect.php" />
-        <item index="1" class="java.lang.String" itemvalue="PHP Script.API.php" />
-        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.autoload.php" />
-        <item index="3" class="java.lang.String" itemvalue="PHP Script.name.php" />
-        <item index="4" class="java.lang.String" itemvalue="PHP Script.Main Search" />
+        <item index="0" class="java.lang.String" itemvalue="PHP Script.listOfPropertiesXML.php" />
+        <item index="1" class="java.lang.String" itemvalue="PHP Script.modalPropertyDetails.php" />
+        <item index="2" class="java.lang.String" itemvalue="PHP Script.pagination.php" />
+        <item index="3" class="java.lang.String" itemvalue="PHP Script.index.php" />
+        <item index="4" class="java.lang.String" itemvalue="PHP Script.ydd.php" />
       </list>
     </recent_temporary>
   </component>
@@ -827,6 +902,13 @@
       <option name="number" value="Default" />
       <updated>1449604293049</updated>
     </task>
+    <task id="LOCAL-00001" summary="Updated Nac and Brand, Search filter partially implemented with output from mySql">
+      <created>1452540178206</created>
+      <option name="number" value="00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1452540178206</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TodoView" selected-index="2">
@@ -839,35 +921,64 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="459" y="7" width="1452" height="1177" extended-state="0" />
+    <frame x="561" y="14" width="1313" height="1111" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32809612" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="DB Browser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32893652" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32766762" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="DB Browser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889733" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="DB Execution Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37892792" sideWeight="0.50547445" order="9" side_tool="true" content_ui="tabs" />
-      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" x="40" y="641" width="718" height="559" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32994455" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32809612" sideWeight="0.759434" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37892792" sideWeight="0.49452555" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23489933" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1571835" sideWeight="0.49411765" order="0" side_tool="false" content_ui="combo" x="2" y="0" width="268" height="1078" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="true" show_stripe_button="true" weight="0.09490741" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" x="4" y="860" width="339" height="340" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3271719" sideWeight="0.49595377" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.109391674" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="true" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="1493" y="558" width="80" height="16" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33534744" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32930514" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26082578" sideWeight="0.759434" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3780037" sideWeight="0.49452555" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20520915" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2738753" sideWeight="0.49411765" order="0" side_tool="false" content_ui="combo" x="2" y="0" width="268" height="1078" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27674022" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" x="228" y="199" width="434" height="604" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32527694" sideWeight="0.49595377" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.10922468" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26003087" sideWeight="0.5058824" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3900185" sideWeight="0.8513514" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36413044" sideWeight="0.8513514" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32931355" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32902032" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32931355" sideWeight="0.60232943" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32994455" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32931355" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32931355" sideWeight="0.60232943" order="14" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="DB Execution Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37892792" sideWeight="0.50547445" order="10" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.083778016" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27674022" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" x="228" y="199" width="434" height="604" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.10922468" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36413044" sideWeight="0.8513514" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32766762" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="DB Browser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32893652" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32994455" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32931355" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="true" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" x="33" y="457" width="80" height="26" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33548984" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32994455" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26082578" sideWeight="0.759434" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3780037" sideWeight="0.49452555" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32931355" sideWeight="0.60232943" order="15" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2375" sideWeight="0.49411765" order="0" side_tool="false" content_ui="combo" x="2" y="0" width="268" height="1078" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3262477" sideWeight="0.49595377" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26003087" sideWeight="0.5058824" order="3" side_tool="true" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -880,63 +991,268 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Updated Nac and Brand, Search filter partially implemented with output from mySql" />
+    <MESSAGE value="Nav lined up with title, and fixed break on all screen sizes, search results implented pulling all in from db" />
+    <option name="LAST_COMMIT_MESSAGE" value="Nav lined up with title, and fixed break on all screen sizes, search results implented pulling all in from db" />
+  </component>
   <component name="WordPressConfiguration">
     <wordpressPath>$PROJECT_DIR$/../../../../wordpress</wordpressPath>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="php">
+        <line-breakpoint type="php">
           <url>file://$PROJECT_DIR$/_training/admin/authors/index.php</url>
           <line>62</line>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="php">
+        <line-breakpoint type="php">
           <url>file://$PROJECT_DIR$/_training/admin/authors/index.php</url>
           <line>2</line>
           <option name="timeStamp" value="8" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="php">
+        <line-breakpoint type="php">
           <url>file://$PROJECT_DIR$/_training/admin/categories/form.html.inc.php</url>
           <line>11</line>
           <option name="timeStamp" value="11" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="php">
+        <line-breakpoint type="php">
           <url>file://$PROJECT_DIR$/_training/connect/index.php</url>
           <line>7</line>
           <option name="timeStamp" value="15" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="php">
+        <line-breakpoint type="php">
           <url>file://$PROJECT_DIR$/name.php</url>
           <line>24</line>
           <option name="timeStamp" value="17" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/includes/vebra/vebra-dataConnect.php</url>
-          <line>16</line>
-          <option name="timeStamp" value="24" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/components/php/snippet-searchResults.php</url>
-          <option name="timeStamp" value="39" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="php">
+        <line-breakpoint type="php">
           <url>file://$PROJECT_DIR$/ydd/vebra/API.php</url>
           <line>39</line>
           <option name="timeStamp" value="40" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="php">
+        <line-breakpoint type="php">
           <url>file://$PROJECT_DIR$/ydd/vebra/API.php</url>
           <line>15</line>
           <option name="timeStamp" value="42" />
         </line-breakpoint>
+        <line-breakpoint type="php">
+          <url>file://$PROJECT_DIR$/components/php/snippet-searchResults.php</url>
+          <option name="timeStamp" value="49" />
+        </line-breakpoint>
+        <line-breakpoint type="php">
+          <url>file://$PROJECT_DIR$/components/php/snippet-searchResults.php</url>
+          <line>1</line>
+          <option name="timeStamp" value="52" />
+        </line-breakpoint>
+        <line-breakpoint type="php">
+          <url>file://$PROJECT_DIR$/components/php/script-contactFormValidation.php</url>
+          <option name="timeStamp" value="60" />
+        </line-breakpoint>
+        <line-breakpoint type="php">
+          <url>file://$PROJECT_DIR$/components/php/script-contactFormValidation.php</url>
+          <line>1</line>
+          <option name="timeStamp" value="64" />
+        </line-breakpoint>
+        <line-breakpoint type="php">
+          <url>file://$PROJECT_DIR$/components/php/script-contactFormValidation.php</url>
+          <line>64</line>
+          <option name="timeStamp" value="67" />
+        </line-breakpoint>
+        <line-breakpoint type="php">
+          <url>file://$PROJECT_DIR$/components/php/script-contactFormValidation.php</url>
+          <line>67</line>
+          <option name="timeStamp" value="68" />
+        </line-breakpoint>
+        <line-breakpoint type="php">
+          <url>file://$PROJECT_DIR$/components/php/script-contactFormValidation.php</url>
+          <line>81</line>
+          <option name="timeStamp" value="69" />
+        </line-breakpoint>
+        <line-breakpoint type="php">
+          <url>file://$PROJECT_DIR$/components/php/script-contactFormValidation.php</url>
+          <line>92</line>
+          <option name="timeStamp" value="70" />
+        </line-breakpoint>
+        <line-breakpoint type="php">
+          <url>file://$PROJECT_DIR$/components/php/script-contactFormValidation.php</url>
+          <line>75</line>
+          <option name="timeStamp" value="71" />
+        </line-breakpoint>
+        <line-breakpoint type="php">
+          <url>file://$PROJECT_DIR$/includes/vebra/listOfPropertiesXML.php</url>
+          <line>715</line>
+          <option name="timeStamp" value="114" />
+        </line-breakpoint>
+        <line-breakpoint type="php">
+          <url>file://$PROJECT_DIR$/includes/vebra/listOfPropertiesXML.php</url>
+          <line>719</line>
+          <option name="timeStamp" value="142" />
+        </line-breakpoint>
+        <line-breakpoint type="php">
+          <url>file://$PROJECT_DIR$/includes/vebra/listOfPropertiesXML.php</url>
+          <line>716</line>
+          <option name="timeStamp" value="143" />
+        </line-breakpoint>
+        <line-breakpoint type="php">
+          <url>file://$PROJECT_DIR$/includes/vebra/listOfPropertiesXML.php</url>
+          <line>805</line>
+          <option name="timeStamp" value="144" />
+        </line-breakpoint>
+        <line-breakpoint type="php">
+          <url>file://$PROJECT_DIR$/includes/vebra/listOfPropertiesXML.php</url>
+          <line>724</line>
+          <option name="timeStamp" value="145" />
+        </line-breakpoint>
+        <line-breakpoint type="php">
+          <url>file://$PROJECT_DIR$/includes/vebra/listOfPropertiesXML.php</url>
+          <line>728</line>
+          <option name="timeStamp" value="146" />
+        </line-breakpoint>
+        <line-breakpoint type="php">
+          <url>file://$PROJECT_DIR$/includes/vebra/listOfPropertiesXML.php</url>
+          <line>669</line>
+          <option name="timeStamp" value="147" />
+        </line-breakpoint>
+        <line-breakpoint type="php">
+          <url>file://$PROJECT_DIR$/includes/vebra/listOfPropertiesXML.php</url>
+          <line>672</line>
+          <option name="timeStamp" value="148" />
+        </line-breakpoint>
+        <line-breakpoint type="php">
+          <url>file://$PROJECT_DIR$/includes/vebra/login.php</url>
+          <line>18</line>
+          <option name="timeStamp" value="171" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/includes/vebra/apiLogin.php</url>
+          <line>18</line>
+          <option name="timeStamp" value="196" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/components/php/pagination.php</url>
+          <option name="timeStamp" value="201" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/ydd.php</url>
+          <line>27</line>
+          <option name="timeStamp" value="202" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/ydd.php</url>
+          <line>29</line>
+          <option name="timeStamp" value="203" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/ydd.php</url>
+          <line>30</line>
+          <option name="timeStamp" value="204" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/ydd.php</url>
+          <line>34</line>
+          <option name="timeStamp" value="205" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/ydd.php</url>
+          <line>38</line>
+          <option name="timeStamp" value="206" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/ydd.php</url>
+          <line>31</line>
+          <option name="timeStamp" value="208" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/search/index.php</url>
+          <line>16</line>
+          <option name="timeStamp" value="209" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/components/php/modalPropertyDetails.php</url>
+          <option name="timeStamp" value="211" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/components/php/modalPropertyDetails.php</url>
+          <line>12</line>
+          <option name="timeStamp" value="212" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/components/php/modalPropertyDetails.php</url>
+          <line>14</line>
+          <option name="timeStamp" value="213" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/includes/vebra/listOfPropertiesXML.php</url>
+          <line>479</line>
+          <option name="timeStamp" value="226" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/includes/vebra/listOfPropertiesXML.php</url>
+          <line>478</line>
+          <option name="timeStamp" value="227" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/includes/vebra/listOfPropertiesXML.php</url>
+          <line>474</line>
+          <option name="timeStamp" value="228" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/includes/vebra/listOfPropertiesXML.php</url>
+          <line>460</line>
+          <option name="timeStamp" value="232" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/includes/vebra/listOfPropertiesXML.php</url>
+          <line>481</line>
+          <option name="timeStamp" value="239" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/includes/vebra/listOfPropertiesXML.php</url>
+          <line>464</line>
+          <option name="timeStamp" value="241" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/includes/vebra/listOfPropertiesXML.php</url>
+          <line>253</line>
+          <option name="timeStamp" value="242" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/includes/vebra/listOfPropertiesXML.php</url>
+          <line>412</line>
+          <option name="timeStamp" value="243" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/includes/vebra/listOfPropertiesXML.php</url>
+          <line>414</line>
+          <option name="timeStamp" value="246" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/includes/vebra/listOfPropertiesXML.php</url>
+          <line>418</line>
+          <option name="timeStamp" value="247" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/includes/vebra/listOfPropertiesXML.php</url>
+          <line>420</line>
+          <option name="timeStamp" value="248" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/includes/vebra/listOfPropertiesXML.php</url>
+          <line>436</line>
+          <option name="timeStamp" value="254" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/includes/vebra/apiLogin.php</url>
+          <line>16</line>
+          <option name="timeStamp" value="255" />
+        </line-breakpoint>
       </breakpoints>
-      <default-breakpoints>
-        <breakpoint enabled="true" type="javascript-exception">
-          <properties />
-        </breakpoint>
-      </default-breakpoints>
-      <option name="time" value="43" />
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+      <option name="time" value="256" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="wp-cron.php">
@@ -952,6 +1268,11 @@
         <watch expression="$placeholders" language="PHP" />
         <watch expression="$jokes" language="PHP" />
         <watch expression="$s" language="PHP" />
+      </configuration>
+      <configuration name="PhpLocalRunConfigurationType">
+        <watch expression="$GLOBALS['_SESSION']['token']" language="PHP" />
+        <watch expression="$propertiesRequest=http://webservices.vebra.com/export/MIDDLETONAPI/v1/branch" language="PHP" />
+        <watch expression="$GLOBALS['IDE_EVAL_CACHE']['e75b1b00-21a9-49ea-b758-01b13163d9a1']" />
       </configuration>
       <configuration name="JavascriptDebugType">
         <watch expression="Q" />
@@ -969,15 +1290,34 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file:///Applications/MAMP/bin/php/php5.6.10/conf/php.ini">
+    <entry file="file://$PROJECT_DIR$/includes/vebra/listOfPropertiesXML.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.75862">
-          <caret line="276" column="19" selection-start-line="276" selection-start-column="19" selection-end-line="276" selection-end-column="19" />
-          <folding />
+        <state vertical-scroll-proportion="6.2181816">
+          <caret line="754" column="36" selection-start-line="754" selection-start-column="30" selection-end-line="754" selection-end-column="36" />
+          <folding>
+            <marker date="1454366731000" expanded="true" signature="5230:5264" placeholder="DELETE FROM ..." />
+            <marker date="1454366731000" expanded="true" signature="5294:5313" placeholder="DROP TABLE p..." />
+            <marker date="1454366731000" expanded="true" signature="5294:5327" placeholder="DROP TABLE p..." />
+            <marker date="1454366731000" expanded="true" signature="5918:6014" placeholder="INSERT INTO `propertylist`..." />
+            <marker date="1454366731000" expanded="true" signature="12207:12244" placeholder="CREATE TABLE..property..." />
+            <marker date="1454366731000" expanded="true" signature="14921:14979" placeholder="INSERT INTO `property`..." />
+            <marker date="1454366731000" expanded="true" signature="15010:16209" placeholder="UPDATE prope..." />
+            <marker date="1454366731000" expanded="true" signature="16966:17007" placeholder="CREATE TABLE..propertypara..." />
+            <marker date="1454366731000" expanded="true" signature="17028:17090" placeholder="INSERT INTO `propertypara`..." />
+            <marker date="1454366731000" expanded="true" signature="19220:19487" placeholder="UPDATE `prop..." />
+            <marker date="1454366731000" expanded="true" signature="20278:20363" placeholder="UPDATE `prop..." />
+            <marker date="1454366731000" expanded="true" signature="20743:20819" placeholder="UPDATE `prop..." />
+            <marker date="1454366731000" expanded="true" signature="21293:21361" placeholder="UPDATE `prop..." />
+            <marker date="1454366731000" expanded="true" signature="21971:22069" placeholder="UPDATE `prop..." />
+            <marker date="1454366731000" expanded="true" signature="22515:22589" placeholder="UPDATE prope..." />
+            <marker date="1454366731000" expanded="true" signature="22964:23031" placeholder="UPDATE prope..." />
+            <marker date="1454366731000" expanded="true" signature="23479:23527" placeholder="UPDATE prope..." />
+            <marker date="1454366731000" expanded="true" signature="23872:23919" placeholder="UPDATE prope..." />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Buzz/Client/Curl.php">
+    <entry file="file://$PROJECT_DIR$/components/less/scaffolding.less">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -985,222 +1325,222 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Buzz/Browser.php">
+    <entry file="file://$PROJECT_DIR$/components/less/TinyBreakpoints.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-14.130435">
-          <caret line="173" column="36" selection-start-line="173" selection-start-column="36" selection-end-line="173" selection-end-column="36" />
+        <state vertical-scroll-proportion="-7.269231">
+          <caret line="60" column="12" selection-start-line="60" selection-start-column="12" selection-end-line="60" selection-end-column="12" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/components/php/snippet-welcome.php">
+    <entry file="file://$PROJECT_DIR$/css/bootstrap.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.1304348">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.21365638">
+          <caret line="4" column="19343" selection-start-line="4" selection-start-column="19343" selection-end-line="4" selection-end-column="19343" />
           <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/search.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-19.038462">
+          <caret line="28" column="37" selection-start-line="28" selection-start-column="37" selection-end-line="28" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/php/pagination.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.8461537">
+          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding>
+            <marker date="1454424793000" expanded="true" signature="1066:1100" placeholder="..." />
+            <marker date="1454424793000" expanded="true" signature="1896:1981" placeholder="..." />
+            <marker date="1454424793000" expanded="true" signature="2061:2094" placeholder="..." />
+            <marker date="1454424793000" expanded="true" signature="2177:2210" placeholder="..." />
+            <marker date="1454424793000" expanded="true" signature="2314:2345" placeholder="..." />
+            <marker date="1454424793000" expanded="true" signature="2395:2462" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/php/holding.inc.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/css/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.0704374">
+          <caret line="2433" column="33" selection-start-line="2433" selection-start-column="33" selection-end-line="2433" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/HG-Gray-Kitchen-1_1000.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/office.JPG">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/otherVendor/propOmb.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/otherVendor/rm.gif">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/otherVendor/zoopla.gif">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/otherVendor/lfindaproperty.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/otherVendor/pl.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/Icons/bathtub.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/Icons/bed.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/team/TM.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/Icons/house.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/components/php/infoPortals.inc.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-12.521739">
-          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+        <state vertical-scroll-proportion="-6.923077">
+          <caret line="10" column="44" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/contact.php">
+    <entry file="file://$PROJECT_DIR$/images/Picasa playing-1.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/kitch.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/php/modalPropertyDetails.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="3.724138">
-          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+        <state vertical-scroll-proportion="-0.6923077">
+          <caret line="32" column="36" selection-start-line="32" selection-start-column="36" selection-end-line="32" selection-end-column="36" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/components/css/theme.css">
+    <entry file="file://$PROJECT_DIR$/components/less/bootstrap.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="254.13043">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.36499467">
+          <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/phpstorm.jar!/resources/html5-schema/html5/web-forms.rnc">
+    <entry file="file://$PROJECT_DIR$/components/less/variables.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3329718">
-          <caret line="357" column="16" selection-start-line="357" selection-start-column="16" selection-end-line="357" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/php/snippet-about.inc.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.013348165">
-          <caret line="1" column="12" selection-start-line="0" selection-start-column="0" selection-end-line="2" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/php/test.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.test.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.013348165">
-          <caret line="146" column="37" selection-start-line="146" selection-start-column="37" selection-end-line="146" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/php/BUsnippet-searchContent.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5995551">
-          <caret line="140" column="11" selection-start-line="140" selection-start-column="11" selection-end-line="140" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/php/footer.inc.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.4347825">
-          <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.4482758">
-          <caret line="15" column="34" selection-start-line="15" selection-start-column="20" selection-end-line="17" selection-end-column="26" />
+        <state vertical-scroll-proportion="-10.4">
+          <caret line="802" column="0" selection-start-line="802" selection-start-column="0" selection-end-line="802" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/components/less/_mystyles.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.26792452">
-          <caret line="353" column="26" selection-start-line="353" selection-start-column="26" selection-end-line="353" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="http://suspended.hostgator.com/js/simple-expand.min.js">
-      <provider selected="true" editor-type-id="httpFileEditor">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/js/affix.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="157" column="24" selection-start-line="157" selection-start-column="24" selection-end-line="157" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/js/popover.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="60" column="4" selection-start-line="60" selection-start-column="4" selection-end-line="60" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/ie-emulation-modes-warning.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="50" column="5" selection-start-line="50" selection-start-column="5" selection-end-line="50" selection-end-column="5" />
+        <state vertical-scroll-proportion="-2.0769231">
+          <caret line="132" column="0" selection-start-line="132" selection-start-column="0" selection-end-line="143" selection-end-column="5" />
           <folding>
-            <element signature="n#!!doc" expanded="false" />
+            <marker date="1454426352000" expanded="true" signature="21721:21727" placeholder="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/components/js/tests/vendor/jquery.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4199134">
-          <caret line="1" column="10649" selection-start-line="1" selection-start-column="10649" selection-end-line="1" selection-end-column="10649" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/js/jquery.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.030303031">
-          <caret line="867" column="1" selection-start-line="867" selection-start-column="1" selection-end-line="867" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/js/_myscripts.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="239" column="4" selection-start-line="239" selection-start-column="4" selection-end-line="239" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/includes/db.inc.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/name.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.5652174">
-          <caret line="3" column="10" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/includes/vebra/tokens.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/includes/vebra/test.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.826087">
-          <caret line="15" column="11" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/includes/vebra/test2.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.695652">
-          <caret line="9" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/includes/vebra/parsetest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.695652">
-          <caret line="9" column="2" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="http://code.jquery.com/jquery-1.9.1.js">
-      <provider selected="true" editor-type-id="httpFileEditor">
+    <entry file="file://$PROJECT_DIR$/images/team/SC2.jpg">
+      <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/composer.json">
+    <entry file="file://$PROJECT_DIR$/images/Bathroom-pink-1-1.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/php/snippet-contact.inc.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.07754443">
-          <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+        <state vertical-scroll-proportion="51.884617">
+          <caret line="31" column="72" selection-start-line="31" selection-start-column="72" selection-end-line="31" selection-end-column="72" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/php/footer.inc.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.076923">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/php/article-testomonials.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-12.5">
+          <caret line="86" column="142" selection-start-line="86" selection-start-column="142" selection-end-line="86" selection-end-column="142" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/mystyles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/meStyles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.0769231">
+          <caret line="3" column="31223" selection-start-line="3" selection-start-column="31223" selection-end-line="3" selection-end-column="31223" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/php/pageHead.inc.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="20.076923">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1213,64 +1553,120 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/search.php">
+    <entry file="file://$PROJECT_DIR$/components/php/script-contactFormValidation.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.0869565">
-          <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
+        <state vertical-scroll-proportion="-11.076923">
+          <caret line="76" column="41" selection-start-line="76" selection-start-column="41" selection-end-line="76" selection-end-column="41" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/includes/vebra/vebra-dataConnect.php">
+    <entry file="file://$PROJECT_DIR$/images/sc_bw.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/storeFront.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/php/snippet-about.inc.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-56.347828">
-          <caret line="121" column="9" selection-start-line="121" selection-start-column="9" selection-end-line="121" selection-end-column="9" />
+        <state vertical-scroll-proportion="-14.538462">
+          <caret line="60" column="54" selection-start-line="60" selection-start-column="54" selection-end-line="60" selection-end-column="54" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/components/php/snippet-searchResults.php">
+    <entry file="file://$PROJECT_DIR$/components/php/infoPortalAbout.inc.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-5.5384617">
-          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <caret line="8" column="222" selection-start-line="8" selection-start-column="222" selection-end-line="8" selection-end-column="222" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/php/snippet-AllRows.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1453151934000" expanded="true" signature="240:270" placeholder="SELECT * FRO..$vebraproperties..." />
+            <marker date="1453151934000" expanded="true" signature="452:582" placeholder="SELECT datab..$vebraproperties..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/php/snippet-welcome.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/php/LIVEsnippet-searchFilter.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.230769">
+          <caret line="9" column="105" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="105" />
+          <folding>
+            <marker date="1454422098000" expanded="true" signature="145:906" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/components/php/snippet-searchFilter.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.4598215">
-          <caret line="136" column="28" selection-start-line="136" selection-start-column="28" selection-end-line="136" selection-end-column="28" />
-          <folding>
-            <marker date="1452539561000" expanded="true" signature="371:1346" placeholder="..." />
-            <marker date="1452539561000" expanded="true" signature="482:767" placeholder="..." />
-            <marker date="1452539561000" expanded="true" signature="595:757" placeholder="..." />
-            <marker date="1452539561000" expanded="true" signature="817:1346" placeholder="..." />
-            <marker date="1452539561000" expanded="true" signature="933:1346" placeholder="..." />
-            <marker date="1452539561000" expanded="true" signature="1611:2217" placeholder="..." />
-            <marker date="1452539561000" expanded="true" signature="1745:2207" placeholder="..." />
-            <marker date="1452539561000" expanded="true" signature="2306:3143" placeholder="..." />
-            <marker date="1452539561000" expanded="true" signature="2451:3133" placeholder="..." />
-            <marker date="1452539561000" expanded="true" signature="3234:4217" placeholder="..." />
-            <marker date="1452539561000" expanded="true" signature="3501:3502" placeholder="..." />
-            <marker date="1452539561000" expanded="true" signature="4267:5213" placeholder="..." />
-            <marker date="1452539561000" expanded="true" signature="4435:5203" placeholder="..." />
-            <marker date="1452539561000" expanded="true" signature="5264:5497" placeholder="..." />
-            <marker date="1452539561000" expanded="true" signature="5319:5487" placeholder="..." />
-          </folding>
+        <state vertical-scroll-proportion="-15.923077">
+          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/search/index.php">
+    <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.61586314">
-          <caret line="30" column="68" selection-start-line="30" selection-start-column="68" selection-end-line="30" selection-end-column="68" />
-          <folding>
-            <marker date="1452539874000" expanded="true" signature="365:453" placeholder="SELECT DISTI..$vebraproperties..." />
-            <marker date="1452539874000" expanded="true" signature="2062:2089" placeholder="SELECT id, n..author..." />
-            <marker date="1452539874000" expanded="true" signature="2337:2366" placeholder="SELECT id, n..category..." />
-          </folding>
+        <state vertical-scroll-proportion="-2.0769231">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/php/header.inc.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.4615386">
+          <caret line="5" column="104" selection-start-line="5" selection-start-column="104" selection-end-line="5" selection-end-column="104" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/robots.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/MidIco.svg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/middleton logo m.svg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/modest.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
   </component>

@@ -1,34 +1,38 @@
-<div class="col-lg-3 col-md-offset-1 col-md-3 col-sm-3  col-sm-offset-1 col-xs-3 pull-right searchFilter">
+<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 searchFilter" xmlns="http://www.w3.org/1999/html">
 
-	<form class="buyingSearchForm form-inline" id="buyingSearchForm" method="post" action="">
+	<form class="buyingSearchForm form-horizontal" id="buyingSearchForm" method="get" action="">
 
 		<!--		Required for auto population of location select menu -->
 		<?php include $_SERVER['DOCUMENT_ROOT'] . '/search/index.php'; ?>
 
 		<fieldset id="buyingSearchFieldset">
-			<legend>Find Your New Home</legend>
+			<legend>
+				<h2>Find Your New Home<div class="fb-like pull-right" data-href="https://www.facebook.com/middletonestatesshoreham/" data-layout="button_count" data-action="recommend" data-show-faces="true" data-share="true">
+					</div>
+				</h2>
+				</legend>
 
 			<!--Buy or Rent Select dropdown-->
-			<div class="form-group row ">
+			<div class="form-group col-lg-2 col-md-4 col-sm-6 col-xs-6 " id="searchDD">
 				<label for="buyRent">Purchase/Let</label></br>
-				<select name="buyRent" id="buyRent" class="selectpicker"
+				<select name="buyRent" id="buyRent" class="searchDD selectpicker btn-group-xs "
 				        data-selected-text-format="count" data-actions-box="true">
 					<option value="buy">Buy</option>
 					<option value="rent">Rent</option>
 				</select>
 			</div><!--formgroup-->
 
-			<div class="form-group row ">
+			<div class="form-group col-lg-2 col-md-4 col-sm-6 col-xs-6" id="searchDD">
 				<label for="areaSelect">Area</label></br>
-				<select name="areaSelect[]" id="areaSelect" class="selectpicker"
+				<select name="areaSelect[]" id="areaSelect" class="searchDD btn-group-xs  selectpicker"
 				        data-selected-text-format="count" data-actions-box="true" data-toggle="dropdown"
-				        class="selectpicker btn-group-sm"
+				         id="searchDD"
 				        multiple data-selected-text-format="count">
 					<option value="">Any</option>
 
 <!--					Creates otions for dropdown based on current locations in database-->
 					<?php foreach ( $areaSelects as $areaSelect ): ?>
-						<option value="<?php htmlout( $areaSelect['available'] ); ?>"><?php htmlout( $areaSelect['available'] ); ?>//todo change col name available in live db
+						<option value="<?php htmlout( $areaSelect['available'] ); ?>"><?php htmlout( $areaSelect['available'] ); ?>
 						</option>
 					<?php endforeach; ?>
 				</select>
@@ -36,9 +40,9 @@
 
 
 			      <!--Bedroom number dropdown-->
-			<div class="form-group row ">
-				<label for="numOfBedSelect">Min Bedrooms</label></br>
-				<select name="numOfBedSelect" id="numOfBedSelect" class="selectpicker"
+			<div class="form-group col-lg-2 col-md-4 col-sm-6 col-xs-6 col-xs-offset-1 " id="searchDD">
+				<label id="numOfBedSelect" for="numOfBedSelect">Min Bedrooms</label id="searchLB"></br>
+				<select name="numOfBedSelect" id="numOfBedSelect" class="selectpicker btn-group-xs  searchDD"
 				        data-selected-text-format="count" data-actions-box="true">
 					<option value="">Any</option>
 					<option value="Studio">Studio</option>
@@ -52,12 +56,11 @@
 			</div><!--formgroup-->
 
 			      <!--Property Type dropdown-->
-			<div class="form-group row ">
-				<label for="propertyTypesSelect">Type</label></br>
+			<div class="form-group col-lg-2 col-md-4 col-sm-6 col-xs-6 " id="searchDD">
+				<label id="searchLB" for="propertyTypesSelect">Type</label id="searchLB"></br>
 				<select name="propertyTypesSelect[]" id="propertyTypesSelect" data-toggle="dropdown"
-				        class="selectpicker"
 				        data-selected-text-format="count" data-actions-box="true" data-toggle="dropdown"
-				        class="selectpicker btn-group-sm"
+				        class="selectpicker btn-group-xs searchDD"
 				        multiple data-selected-text-format="count">
 <!--									<option value="">Any</option>-->
 					<!--				<option value="All">All</option>-->
@@ -73,9 +76,9 @@
 
 
 			      <!--Min Value Type dropdown-->
-			<div class="form-group row ">
-				<label for="minValSelect">Min Value</label></br>
-				<select name="minValueSelect" id="minValueSelect" data-toggle="dropdown" class="selectpicker"
+			<div class="form-group col-lg-2 col-md-4 col-sm-6 col-xs-6 " id="searchDD">
+				<label id="searchLB" for="minValSelect">Min Value</label id="searchLB"></br>
+				<select name="minValueSelect" id="minValueSelect" data-toggle="dropdown" class="searchDD btn-group-xs  selectpicker"
 				        ">
 					<!--			        multiple data-selected-text-format="count" multiple data-actions-box="true">-->
 					<option value="">No Minimum</option>
@@ -96,11 +99,11 @@
 				</select>
 			</div><!--formgroup-->
 
-			<div class="form-group row ">
+			<div class="form-group col-lg-2 col-md-4 col-sm-6 col-xs-6 " id="searchDD">
 				<!--Max Value Type dropdown-->
-				<label for="maxValueSelect">Max Value</label></br>
+				<label id="searchLB" for="maxValueSelect">Max Value</label id="searchLB"></br>
 				<select name="maxValueSelect" id="maxValueSelect" data-toggle="dropdown"
-				        class="selectpicker input-small">
+				        class="selectpicker btn-group-xs  input-small searchDD">
 					<option value="No Maximum">No Maximum</option>
 					<option value="£200,000orless">£200,000</option>
 					<option value="£225,000">£225,000</option>
@@ -121,18 +124,13 @@
 </br>
 			<div class="input-group">
                         <span class="input-group-btn">
-                            <button class="btn btn-default buySearchSubmit" name="action" type="submit" value="search">Search!</button>
+                            <button class="btn btn-default buySearchSubmit btn-group-xs " name="action" type="submit" value="search">Search!</button>
                         </span>
 			</div>
 
 </fieldset>
 </form>
 
-	<p>'A Moving Experience'</p>
-
-
-
-
 </div>
-<?php include $_SERVER['DOCUMENT_ROOT'] . '/components/php/snippet-searchResults.php' ?>
+<?php //include $_SERVER['DOCUMENT_ROOT'] . '/components/php/snippet-searchResults.php' ?>
 
